@@ -1,0 +1,81 @@
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\Wimetrix Management System.exe.config
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\Wimetrix Management System.exe
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\Wimetrix Management System.pdb
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\CustomControl.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\De.TorstenMandelkow.MetroChart.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\EntityFramework.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\EntityFramework.SqlServer.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\FontAwesome.WPF.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\MaterialDesignColors.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\MaterialDesignThemes.Wpf.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\Newtonsoft.Json.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\Reader.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\System.Data.SQLite.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\System.Data.SQLite.EF6.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\System.Data.SQLite.Linq.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\System.Net.Http.Formatting.dll
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\EntityFramework.xml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\EntityFramework.SqlServer.xml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\FontAwesome.WPF.xml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\MaterialDesignThemes.Wpf.pdb
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\MaterialDesignThemes.Wpf.xml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\Newtonsoft.Json.xml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\System.Data.SQLite.xml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\System.Data.SQLite.dll.config
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Release\System.Net.Http.Formatting.xml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix warehouse mangement system.csprojAssemblyReference.cache
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Cutting Management\Cutting dept\cutting_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\index_page.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Login\login_view\login_view.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\add_cutreport.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\cutreport_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\upload_cutreport.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Orders\add_order_uc.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Orders\orders_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\style_bulletin_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\upload_style_bulletin.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Assign Rfid\assign_rfid.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Card Assign\assign_rfid_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Dashboard\stockReport.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\manual_stocking_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Update location\update_location_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Upload Excel\import_packing_list_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\view Packing List\view_packinglist_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\wlecome_window.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\App.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System_MarkupCompile.cache
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System_MarkupCompile.lref
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\App.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Cutting Management\Cutting dept\cutting_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\index_page.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Login\login_view\login_view.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\add_cutreport.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\cutreport_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\upload_cutreport.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Orders\add_order_uc.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Orders\orders_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\style_bulletin_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\upload_style_bulletin.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Assign Rfid\assign_rfid.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Card Assign\assign_rfid_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Dashboard\stockReport.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\manual_stocking_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Update location\update_location_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Upload Excel\import_packing_list_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\view Packing List\view_packinglist_UC.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\wlecome_window.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System.g.resources
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix_warehouse_mangement_system.Properties.Resources.resources
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix warehouse mangement system.csproj.GenerateResource.cache
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix warehouse mangement system.csproj.CoreCompileInputs.cache
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix warehouse mangement system.csproj.CopyComplete
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System.exe
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System.pdb
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.g.cs
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.baml
+D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.baml

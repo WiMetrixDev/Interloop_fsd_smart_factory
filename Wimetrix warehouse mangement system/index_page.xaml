@@ -1,0 +1,164 @@
+﻿<Window x:Name="index_page1" x:Class="Wimetrix_warehouse_mangement_system.index_page"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+            xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system"
+            mc:Ignorable="d"
+            Title="Interloop Managment System" WindowState="Normal" SizeChanged="index_page1_SizeChanged"  MinHeight="720" WindowStartupLocation="CenterScreen" WindowStyle="None" Width="1200">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="ImageButtonStyle">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Background="#FFDEDEDE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="335*"/>
+            <ColumnDefinition Width="957*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="GridBarraTitulo" Background="#438830" Margin="0,0,0,0" Grid.ColumnSpan="2" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0" Width="193">
+                <Button Background="#438830" Width="69" Height="25" Click="Button_Click_1" >
+                    <materialDesign:PackIcon Foreground="White" Kind="WindowMinimize"/>
+                </Button>
+                <Button Background="#438830" Width="57" Height="25" Foreground="White" Click="Button_Click">
+                    <materialDesign:PackIcon Kind="Resize"/>
+                </Button>
+                <Button x:Name="btn_exit" Background="#438830" Width="66" Height="25"  Foreground="White" Click="btn_exit_Click" >
+                    <materialDesign:PackIcon Kind="Power"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <DockPanel x:Name="grid_main" VerticalAlignment="Stretch" Background="White" Margin="0,78,0,0" Grid.ColumnSpan="2"/>
+
+
+        <Grid x:Name="GridMenu"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="White" Margin="0,24,0,0" Height="54" Grid.ColumnSpan="2">
+            <DockPanel >
+                <Grid Height="58" Background="White" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <Button Style="{StaticResource ImageButtonStyle}" Click="Button_Click_2">
+                        <Image Source="Assets/logo/wiii.png" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="30,10,75,0" Width="130"/>
+                    </Button>
+                </Grid>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="75,0,0,0" >
+                    <Menu  DockPanel.Dock="Top">
+                        <MenuItem Name="menu_warehouse" IsEnabled="False" Background="White" Height="58" Click="menu_warehouse_Click" >
+                            <MenuItem.Header  >
+                                <StackPanel Orientation="Horizontal" Height="70" Width="150" >
+                                    <materialDesign:PackIcon Kind="Inbox" Height="Auto" Width="30" Margin="5,5,0,15" VerticalAlignment="Stretch"/>
+                                    <Label Content="Warehouse"  Height="45" Width="100" Margin="15,19,0,6"/>
+                                </StackPanel>
+                            </MenuItem.Header>
+                            <MenuItem Header="View Stock Report" Click="MenuItem_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_generate_packing_list" Header="_Generate Packing List" Click="item_generate_packing_list_Click"/>
+                            <Separator  />
+                            <MenuItem Name="item_upload_excel" Header="_Upload Packing List" Checked="item_upload_excel_Checked" Click="item_upload_excel_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_view_excel" Header="_View Packing List" Click="item_view_excel_Click"  />
+                            <Separator  />
+                            <MenuItem Name="item_update_location" Header="_Update Location" Click="item_update_location_Click" />
+                            <!--<Separator  />
+                            <MenuItem Name="item_assign_rfid" Header="_Asign RFID Cards" Click="item_assign_rfid_Click" />-->
+                            <Separator  />
+                            <MenuItem Name="item_stocking" Header="_Stock In/Out" Click="item_stocking_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_allocation" Header="_Departmental Allocation" Click="Item_allocation_Click" />
+                            <!--<Separator  />
+                            <MenuItem Name="item_consumption" Header="_Departmental Consumption" Click="Item_consumption_Click" />-->
+                            <Separator  />
+                            <MenuItem Name="item_transfer_rolls" Header="_Rolls Transfer" Click="item_transfer_rolls_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_roll_return" Header="_Rolls Return" Click="item_roll_return_Click" />
+
+                        </MenuItem>
+                    </Menu>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+                    <Menu  DockPanel.Dock="Top">
+                        <MenuItem Name="menu_cutting" IsEnabled="False" VerticalAlignment="Stretch" Background="White" Height="58" Click="MenuItem_Click_2" >
+                            <MenuItem.Header  >
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" Height="70" Width="150" >
+                                    <materialDesign:PackIcon Kind="Scissors" Height="Auto" Width="30" Margin="5,5,0,15" VerticalAlignment="Stretch"/>
+                                    <Label Name="item_cutting" Content="Cutting&#xD;&#xA;"  Height="45" Width="100" Margin="15,19,0,6"/>
+                                </StackPanel>
+                            </MenuItem.Header>
+                            <MenuItem   Header="Cutting department" Click="MenuItem_Click_1" />
+                        </MenuItem>
+                    </Menu>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0">
+                    <Menu  DockPanel.Dock="Top">
+                        <Separator Height="52"  />
+                        <MenuItem Name="menu_Spts" IsEnabled="False"  VerticalAlignment="Stretch" Background="White" Height="58" >
+                            <MenuItem.Header  >
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" Height="70" Width="150" >
+                                    <materialDesign:PackIcon Kind="Settings" Height="Auto" Width="30" Margin="5,5,0,15" VerticalAlignment="Stretch"/>
+                                    <Label Content="SPTS"  Height="45" Width="100" Margin="15,19,0,6"/>
+                                </StackPanel>
+                            </MenuItem.Header>
+                            <MenuItem Name="item_cutreport" Header="Add/View Cut Report" Click="item_cutreport_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_orders"  Header="Add/View Operations" Click="item_orders_Click" />
+                            <Separator  />
+                            <MenuItem  Name="item_workers" Header="Add/View Workers" Click="Item_workers_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_orders_add"  Header="Add/View Orders" Click="Item_orders_add_Click" />
+                            <Separator  />
+
+                            <MenuItem  Name="item_style_bulletin" Header="Add/View Style Bulletin" Click="item_style_bulletin_Click" />
+                        </MenuItem>
+                    </Menu>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0">
+                    <Menu  DockPanel.Dock="Top">
+                        <Separator Height="52"  />
+                        <MenuItem Name="menu_asset" IsEnabled="False" VerticalAlignment="Stretch" Background="White" Height="58" Click="menu_asset_Click" >
+                            <MenuItem.Header  >
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" Height="70" Width="150" >
+                                    <materialDesign:PackIcon Kind="WebAsset" Height="Auto" Width="30" Margin="5,5,0,15" VerticalAlignment="Stretch"/>
+                                    <Label Content="Asset tracking"  Height="45" Width="120" Margin="15,19,0,6"/>
+                                </StackPanel>
+                            </MenuItem.Header>
+                            <MenuItem  Header="Asset Summary" />
+                            <Separator  />
+                            <MenuItem Name="item_asset_tracking"  Header="Asset Tracking" Click="Item_asset_tracking_Click"  />
+                            <Separator  />
+                            <MenuItem Name="item_admin"  Header="Administrative Dashboard" Click="Item_manual_allocate_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_upload_parts_list"  Header="Upload Machine Parts" Click="item_upload_parts_list_Click" />
+
+                        </MenuItem>
+                    </Menu>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="Extras" VerticalAlignment="Center" FontSize="16"/>
+                    <materialDesign:PopupBox PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Margin="10">
+                        <StackPanel Width="150">
+                            <Button Content="Settings"/>
+                            <Button Content="Account"/>
+                            <Button Content="Help"/>
+                            <Separator/>
+                            <Button Name="item_logout" Content="Logout" Click="Item_logout_Click"/>
+                        </StackPanel>
+                    </materialDesign:PopupBox>
+                </StackPanel>
+            </DockPanel>
+        </Grid>
+    </Grid>
+</Window>

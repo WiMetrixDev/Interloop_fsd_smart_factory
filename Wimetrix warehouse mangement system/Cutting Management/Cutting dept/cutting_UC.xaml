@@ -1,0 +1,195 @@
+﻿<UserControl x:Class="Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept.cutting_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept"
+                         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             >
+    <Grid Margin="0,0,0,0" Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinHeight="650" MinWidth="580">
+        <Border BorderBrush="Black" Background="#438830" BorderThickness="0" Grid.Column="2" HorizontalAlignment="Right" Margin="0,0,0,0" Width="5" RenderTransformOrigin="0.5,0.5"/>
+        <Border BorderBrush="Black" Background="#438830" BorderThickness="0" Height="5" Margin="0,0,0.4,-0.4" VerticalAlignment="Bottom" Grid.ColumnSpan="3"/>
+        <Border BorderBrush="Black" Background="#438830" BorderThickness="0" HorizontalAlignment="Left" Width="5" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="Cutting" HorizontalAlignment="Center" Margin="318,32,318,0" VerticalAlignment="Top" FontSize="24"  FontWeight="Bold"/>
+        <Border BorderBrush="Black" Background="#438830" BorderThickness="0" Height="5" Margin="0,0,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+        <DockPanel VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="20,177,411,20"/>
+        <Image  Source="../../Assets/logo/il.png" HorizontalAlignment="Left"   Margin="20,18,0,0" VerticalAlignment="Top" Width="186" Height="154" RenderTransformOrigin="0.5,0.5">
+        </Image>
+        <Grid HorizontalAlignment="Center" Height="394" VerticalAlignment="Center" Width="1132" Margin="26,170,29,0">
+            <Border Background="#29506D" BorderThickness="0" CornerRadius="05,05,05,05" Height="34" Margin="40,222,17,0" VerticalAlignment="Top"  MaxHeight="50" />
+            <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Weight:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="89" Height="38" Margin="295,222,0,0" />
+            <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="% Waste:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="89" Height="38" Margin="703,222,0,0" />
+            <Button x:Name="btn_large_waste" BorderBrush="#29506D" Background="#29506D"  Content="Done" HorizontalAlignment="Right" Margin="0,266,143,0" VerticalAlignment="Top" Width="109" Click="Btn_large_waste_Click" />
+            <Button x:Name="btn_small_waste" BorderBrush="#29506D" Background="#29506D"  Content="Done" HorizontalAlignment="Right" Margin="0,308,143,0" VerticalAlignment="Top" Width="109" Click="Btn_small_waste_Click" />
+
+            <Border Background="#29506D" BorderThickness="0" CornerRadius="05,05,05,05" HorizontalAlignment="Left" Height="38" Margin="41,308,0,0" VerticalAlignment="Top" Width="124" MaxWidth="150"  >
+                <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Small Waste:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="126" Height="34" Margin="0,0,-36,0" />
+            </Border>
+            <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="05,05,05,05" HorizontalAlignment="Right" Height="38" Margin="0,270,690,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                <TextBox BorderBrush="#29506D" Name="text_large_weight"  VerticalAlignment="Top"
+                
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,0,5,0" TextChanged="Text_large_weight_TextChanged" 
+            />
+            </Border>
+            <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="05,05,05,05" HorizontalAlignment="Right" Height="38" Margin="0,310,690,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                <TextBox BorderBrush="#29506D" Name="text_small_weight"  VerticalAlignment="Top"
+      
+                    Typography.StylisticSet19="True"
+                    TextElement.FontFamily="Tahoma"
+                    IsHitTestVisible="True" Margin="10,0,5,0" TargetUpdated="Text_small_weight_TargetUpdated" TextChanged="Text_small_weight_TextChanged"
+            />
+            </Border>
+            <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="05,05,05,05" HorizontalAlignment="Right" Height="38" Margin="0,310,290,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                <Label BorderBrush="#29506D" Name="text_small_weight_percentage"   VerticalAlignment="Top"
+      
+                    Typography.StylisticSet19="True"
+                    TextElement.FontFamily="Tahoma"
+                    IsHitTestVisible="True" Margin="10,0,5,0"
+            />
+            </Border>
+            <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="05,05,05,05" HorizontalAlignment="Right" Height="38" Margin="0,270,290,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                <Label BorderBrush="#29506D" Name="text_large_weight_percentage"   VerticalAlignment="Top"
+      
+                    Typography.StylisticSet19="True"
+                    TextElement.FontFamily="Tahoma"
+                    IsHitTestVisible="True" Margin="10,0,5,0"
+            />
+            </Border>
+            <Border Background="#29506D" BorderThickness="0" CornerRadius="05,05,05,05" Height="29" Margin="40,355,17,0" VerticalAlignment="Top"  MaxHeight="50" />
+            <Border Background="#29506D" BorderThickness="0" CornerRadius="05,05,05,05" HorizontalAlignment="Left" Height="38" Margin="42,266,0,0" VerticalAlignment="Top" Width="124" MaxWidth="150"  >
+                <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Large Waste:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="124" Height="34" />
+            </Border>
+            <Button x:Name="btn_large_waste_hault" BorderBrush="IndianRed" Background="IndianRed"  Content="Hault" HorizontalAlignment="Right" Margin="0,266,29,0" VerticalAlignment="Top" Width="109" Click="Btn_large_waste_hault_Click" />
+            <Button x:Name="btn_small_waste_hault" BorderBrush="IndianRed" Background="IndianRed"  Content="Hault" HorizontalAlignment="Right" Margin="0,308,29,0" VerticalAlignment="Top" Width="109" Click="Btn_small_waste_hault_Click" />
+        </Grid>
+        <Grid  Margin="82,120,56,0" HorizontalAlignment="Center" VerticalAlignment="Top" MaxHeight="260" Height="307" Width="1049">
+            <Rectangle  Fill="White" RadiusY="10" RadiusX="10" Margin="0,0,0,-34">
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" RenderingBias="Quality" ShadowDepth="1"/>
+                </Rectangle.Effect>
+            </Rectangle>
+            <Grid Width="35" Height="50" Background="#FFCF1F1F" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0">
+                <Grid.Effect>
+                    <DropShadowEffect BlurRadius="20" Color="#FFECECEC" RenderingBias="Quality" ShadowDepth="1"/>
+                </Grid.Effect>
+                <materialDesign:PackIcon Kind="Scanner"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
+            </Grid>
+            <Label Content="Scanned Rolls" HorizontalAlignment="Center" Margin="20,10,0,0" VerticalAlignment="Top" FontSize="30"/>
+            <DataGrid Background="Transparent"  Name ="grid_cutting" IsReadOnly="True" ColumnWidth="*" VerticalScrollBarVisibility="Auto" Margin="10,65,10,-34" />
+            <Label Content="Total Weight:" HorizontalAlignment="Center" Margin="793,23,126,0" VerticalAlignment="Top" FontSize="20" Width="130"/>
+            <Label Name="text_total_consumption" Content="0" HorizontalAlignment="Center" Margin="928,23,10,0" VerticalAlignment="Top" FontSize="20" Width="111"/>
+            <Label Content="Total Rolls:" HorizontalAlignment="Center" Margin="60,21,859,0" VerticalAlignment="Top" FontSize="20" Width="130"/>
+            <Label x:Name="text_total_rolls" Content="0" HorizontalAlignment="Center" Margin="157,23,781,0" VerticalAlignment="Top" FontSize="20" Width="111"/>
+        </Grid>
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="12" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565" Grid.ColumnSpan="2"  />
+        <Button x:Name="btn_start_cutting" BorderBrush="#29506D" Background="#29506D"  Content="Start Roll Scanning" HorizontalAlignment="Right" Margin="0,47,29,0" VerticalAlignment="Top" Width="168" Height="42" Click="Btn_start_cutting_Click" />
+        <Button x:Name="btn_view_wastage_log" Visibility="Collapsed" BorderBrush="IndianRed" Background="IndianRed"  Content="View Wastage Log" HorizontalAlignment="Right" Margin="0,78,13,0" VerticalAlignment="Top" Width="168" Height="42"  />
+        <materialDesign:DialogHost IsOpen="False" Name="issuance_popup"  CloseOnClickAway="False" Grid.ColumnSpan="2">
+            <materialDesign:DialogHost.DialogContent>
+                <Grid Margin="120">
+                    <Label Content="Partial Issuance or Complete ?" HorizontalAlignment="Center" Margin="0,-60,0,0" VerticalAlignment="Top" FontSize="20"  FontWeight="Bold" Grid.Column="1"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,0,0,0">
+                        <Label Content="Order:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_order" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,30,0,0">
+                        <Label Content="Roll:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_roll_id" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,60,0,0">
+                        <Label Content="Weight:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_weight_available" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,90,0,0">
+                        <Label Content="Color:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_color" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,120,0,0">
+                        <Label Content="Vendor:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_vendor" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,150,0,0">
+                        <Label Content="Fabric Lot:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_fabric_lot" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,180,0,0">
+                        <Label Content="Fabric Type:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_fabric_type" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="80,210,0,0">
+                        <Label Content="Supplier Lot:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.643,0.852"/>
+                        <Label Content="" Name="popup_text_supplier_lot" HorizontalAlignment="Center" Margin="0,0,69,0" VerticalAlignment="Top" FontSize="18" Width="auto"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,250,0,0">
+                        <RadioButton Name="Partial" Content="Partial" Margin="70,0,40,0" Checked="Partial_Checked" ></RadioButton>
+                        <RadioButton Name="Complete" Content="Complete" Checked="Complete_Checked" ></RadioButton>
+                    </StackPanel>
+
+                    <DockPanel x:Name="partial_meters_dock" Visibility="Hidden" Background="Transparent"  Margin="0,340,0,0">
+
+                        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,05,0" HorizontalAlignment="Left" Height="38" Margin="0,0,0,0" VerticalAlignment="Top" Width="130" MaxWidth="150" MaxHeight="50">
+                            <Label  x:Name="label_weight" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Weight Left:" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="129" Height="38" />
+                        </Border>
+                        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,0,0,0" HorizontalAlignment="Left" Height="38" Margin="-10,0,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                            <TextBox  x:Name="text_weight_left"  Margin="0,0,0,0" VerticalAlignment="Top" Width="145"      
+                            Typography.StylisticSet19="True"
+                            TextElement.FontFamily="Tahoma"
+                            IsHitTestVisible="True"
+                            />
+                        </Border>
+                    </DockPanel>
+                    <Button x:Name="btn_popup_ok" Content="OK" Background="#29506D" BorderBrush="#29506D" HorizontalAlignment="Left" Margin="80,220,0,0" Width="70"  Height="40" Grid.Column="1" Click="Btn_popup_ok_Click" />
+                    <Button x:Name="btn_popup_cancel" Content="Cancel" Background="#29506D" BorderBrush="#29506D" HorizontalAlignment="Left" Margin="160,220,0,0" Width="80"  Height="40" Grid.Column="1" Click="Btn_popup_cancel_Click" />
+                    <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Name="notifier_popup" FontSize="12" Padding="5" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,-60" Height="50" Width="300" Grid.ColumnSpan="2"  />
+                </Grid>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+
+        <materialDesign:DialogHost IsOpen="False" Name="wastage_log_popup"  CloseOnClickAway="False" Grid.ColumnSpan="2">
+            <materialDesign:DialogHost.DialogContent>
+                <Grid Margin="120">
+                    <Label Content="Wastage Log" HorizontalAlignment="Center" Margin="0,-60,0,0" VerticalAlignment="Top" FontSize="20"  FontWeight="Bold" Grid.Column="1"/>
+                    <Grid  Margin="82,10,56,0" HorizontalAlignment="Center" VerticalAlignment="Top" MaxHeight="260" Height="275" Width="1049">
+            <Rectangle  Fill="White" RadiusY="10" RadiusX="10">
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" RenderingBias="Quality" ShadowDepth="1"/>
+                </Rectangle.Effect>
+            </Rectangle>
+            <Grid Width="35" Height="50" Background="#FFCF1F1F" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0">
+                <Grid.Effect>
+                    <DropShadowEffect BlurRadius="20" Color="#FFECECEC" RenderingBias="Quality" ShadowDepth="1"/>
+                </Grid.Effect>
+                <materialDesign:PackIcon Kind="Scanner"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
+            </Grid>
+            <Label Content="Previous Large Wastage" HorizontalAlignment="Center" Margin="20,10,0,0" VerticalAlignment="Top" FontSize="30"/>
+            <DataGrid Background="Transparent"  Name ="grid_large_wastage" IsReadOnly="True" ColumnWidth="*" VerticalScrollBarVisibility="Auto" Margin="10,65,10,15" />
+            <Label Content="Total Weight:" HorizontalAlignment="Center" Margin="793,23,126,0" VerticalAlignment="Top" FontSize="20" Width="130"/>
+            <Label Name="text_previous_total_large_waste" Content="0" HorizontalAlignment="Center" Margin="928,23,10,0" VerticalAlignment="Top" FontSize="20" Width="111"/>
+          </Grid>
+                    <Grid  Margin="80,300,56,0" HorizontalAlignment="Center" VerticalAlignment="Top" MaxHeight="260" Height="275" Width="1049">
+                        <Rectangle  Fill="White" RadiusY="10" RadiusX="10">
+                            <Rectangle.Effect>
+                                <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" RenderingBias="Quality" ShadowDepth="1"/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                        <Grid Width="35" Height="50" Background="#FFCF1F1F" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0">
+                            <Grid.Effect>
+                                <DropShadowEffect BlurRadius="20" Color="#FFECECEC" RenderingBias="Quality" ShadowDepth="1"/>
+                            </Grid.Effect>
+                            <materialDesign:PackIcon Kind="Scanner"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
+                        </Grid>
+                        <Label Content="Previous Small Wastage" HorizontalAlignment="Center" Margin="20,10,0,0" VerticalAlignment="Top" FontSize="30"/>
+                        <DataGrid Background="Transparent"  Name ="grid_small_wastage" IsReadOnly="True" ColumnWidth="*" VerticalScrollBarVisibility="Auto" Margin="10,65,10,15" />
+                        <Label Content="Total Weight:" HorizontalAlignment="Center" Margin="793,23,126,0" VerticalAlignment="Top" FontSize="20" Width="130"/>
+                        <Label Name="text_previous_total_small_waste" Content="0" HorizontalAlignment="Center" Margin="928,23,10,0" VerticalAlignment="Top" FontSize="20" Width="111"/>
+                    </Grid>
+                </Grid>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>

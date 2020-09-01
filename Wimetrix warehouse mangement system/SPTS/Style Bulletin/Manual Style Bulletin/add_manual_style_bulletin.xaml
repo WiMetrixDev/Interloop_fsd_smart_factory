@@ -1,0 +1,123 @@
+﻿<UserControl x:Class="Wimetrix_warehouse_mangement_system.SPTS.Style_Bulletin.Manual_Style_Bulletin.add_manual_style_bulletin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.SPTS.Style_Bulletin.Manual_Style_Bulletin"
+             mc:Ignorable="d" 
+         d:DesignHeight="450" d:DesignWidth="1500">
+    <Grid Background="White" VerticalAlignment="Stretch" MinHeight="375" MinWidth="580">
+
+        <Grid Margin="0" Grid.ColumnSpan="2">
+            <ProgressBar Name="progress_bar"   Background="White" Foreground="Blue" Minimum="0" Maximum="100" Value="0" Margin="0,83,0,353" Height="10" />
+        </Grid>
+        <DockPanel VerticalAlignment="Stretch" Margin="5,100,5,5">
+            <DataGrid Name="grid_style_bulletin" HorizontalScrollBarVisibility="Hidden" ColumnWidth="*" Grid.Column="3" />
+        </DockPanel>
+
+        <materialDesign:DialogHost IsOpen="False" Name="popup_status"  CloseOnClickAway="False" Grid.ColumnSpan="2">
+            <materialDesign:DialogHost.DialogContent>
+                <DockPanel HorizontalAlignment="Center" Background="White" Width="1000"  Height="500" Margin="0,0,0,0">
+                    <Label Content="Following is the status of the excel you have uploaded" Margin="0,10,0,0" DockPanel.Dock="Top" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="Auto"></Label>
+                    <DataGrid Name="grid_excel_upload_status_list" ColumnWidth="*" Grid.ColumnSpan="2"  DockPanel.Dock="Top" HorizontalAlignment="Stretch" Height="359" Margin="10,30,10,0"/>
+                    <Button x:Name="btn_status_popup" Content="OK" Background="#48576C" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20" Width="106"  Height="30" Grid.Column="1" Click="btn_ok_status_popup"/>
+
+                </DockPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+        <Button x:Name="btn_add_style_bulletin"  BorderBrush="#29506D" Background="#29506D" Content="ADD" HorizontalAlignment="Right" Margin="0,20,199,0" VerticalAlignment="Top" Width="167" Click="btn_add_style_bulletin_Click" />
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="8" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565" Grid.ColumnSpan="2"  />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="20,20,0,0" VerticalAlignment="Top" Width="86" MaxWidth="150" MaxHeight="50" />
+
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Left" Height="38" Margin="10,20,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Left" Height="38" Margin="105,20,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+            <ComboBox BorderBrush="#29506D"   x:Name="combo_orders" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="145"      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,0,0,0" SelectionChanged="Combo_orders_SelectionChanged"
+            />
+        </Border>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="OrderID:" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+        
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="290,18,0,0" VerticalAlignment="Top" Width="86" MaxWidth="150" MaxHeight="50" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Left" Height="38" Margin="280,18,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Left" Height="38" Margin="375,18,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+            <ComboBox BorderBrush="#29506D"   x:Name="combo_style" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="145"     
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,0,0,0" SelectionChanged="Combo_style_SelectionChanged" 
+            />
+        </Border>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Style:" HorizontalAlignment="Left" Margin="280,20,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Left" Height="38" Margin="550,16,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Left" Height="38" Margin="645,16,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+            <ComboBox BorderBrush="#29506D"   x:Name="combo_article" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="145"      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,0,0,0" 
+            />
+        </Border>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Article:" HorizontalAlignment="Left" Margin="550,18,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+        <materialDesign:DialogHost IsOpen="false" Name="style_bulletin_popup" HorizontalAlignment="Center" VerticalAlignment="Center" CloseOnClickAway="False" Grid.ColumnSpan="2">
+            <materialDesign:DialogHost.DialogContent>
+                <Grid HorizontalAlignment="Center" Background="White" Width="1000"  Height="500" Margin="0,0,0,0">
+                    <Grid HorizontalAlignment="Center" Margin="0,0,200,0">
+                        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="0,100,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" >
+                            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Operation:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+                        </Border>
+                        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="250,100,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                            <ComboBox BorderBrush="#29506D" Name="combo_operations"  HorizontalAlignment="Center"  VerticalAlignment="Top" Width="145"      
+                            Typography.StylisticSet19="True"
+                            TextElement.FontFamily="Tahoma"
+                            IsHitTestVisible="True" Margin="10,0,0,0" 
+                        />
+                        </Border>
+                    </Grid>
+                    <Grid HorizontalAlignment="Center" Margin="0,60,200,0">
+                        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="0,100,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" >
+                            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="SMV:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+                        </Border>
+                        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="250,100,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                            <TextBox BorderBrush="#29506D" Name="text_smv"  HorizontalAlignment="Center"  VerticalAlignment="Top" Width="145"      
+                            Typography.StylisticSet19="True"
+                            TextElement.FontFamily="Tahoma"
+                            IsHitTestVisible="True" Margin="10,0,0,0" 
+                        />
+                        </Border>
+                    </Grid>
+
+                    <Grid HorizontalAlignment="Center" Margin="0,120,200,0">
+                        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="0,100,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" >
+                            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Piece Rate:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+                        </Border>
+                        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="250,100,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                            <TextBox BorderBrush="#29506D" Name="text_pieceRate" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="145"      
+                            Typography.StylisticSet19="True"
+                            TextElement.FontFamily="Tahoma"
+                            IsHitTestVisible="True" Margin="10,0,0,0" 
+                        />
+                        </Border>
+                    </Grid>
+                   
+                    <Grid HorizontalAlignment="Center" Margin="0,180,200,0">
+                        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="0,100,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" >
+                            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="OP Seq:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+                        </Border>
+                        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="250,100,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                            <TextBox BorderBrush="#29506D" Name="text_opSeq" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="145"      
+                            Typography.StylisticSet19="True"
+                            TextElement.FontFamily="Tahoma"
+                            IsHitTestVisible="True" Margin="10,0,0,0" 
+                        />
+                        </Border>
+                    </Grid>
+                    <Label Content="Please provide the follwoing information to add Style Bulletin" Margin="0,10,0,0" DockPanel.Dock="Top" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="Auto"></Label>
+                    <Button x:Name="btn_popup_ok" Content="OK" Background="#29506D" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20" Width="106"  Height="30" Grid.Column="1" Click="btn_popup_ok_Click"/>
+                </Grid>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+        <Button x:Name="btn_upload"  BorderBrush="#29506D" Background="#29506D" Content="Upload" HorizontalAlignment="Right" Margin="0,19,27,0" VerticalAlignment="Top" Width="167" Click="Btn_upload_Click"/>
+    </Grid>
+</UserControl>

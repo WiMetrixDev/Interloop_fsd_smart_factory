@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="Wimetrix_warehouse_mangement_system.SPTS.Style_Bulletin.View_Style_Bulletin.view_style_bulletin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.SPTS.Style_Bulletin.View_Style_Bulletin"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1000">
+    <Grid Background="White" VerticalAlignment="Stretch" MinHeight="375" MinWidth="580" Margin="0,0,0,0">
+
+        <ProgressBar Name="progress_bar"   Background="White" Foreground="Blue" Minimum="0" Maximum="100" Value="0" Margin="0,56,0,313" Height="Auto" />
+
+        <DockPanel VerticalAlignment="Stretch" Margin="0,90,0,0" Grid.ColumnSpan="2">
+            <DataGrid Name="grid_view_styleBulletin" ItemsSource="{Binding style_bulletin_list}" AutoGenerateColumns="False"  HorizontalScrollBarVisibility="Hidden" ColumnWidth="*" Grid.Column="3" Margin="0,-28,0,0" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Style ID" IsReadOnly="False" Binding="{Binding Style_ID}" />
+                    <DataGridTextColumn Header="Order ID" IsReadOnly="True" Binding="{Binding Order}" />
+                    <DataGridTextColumn Header="Style Code" IsReadOnly="True"  Binding="{Binding StyleCode}" />
+                    <DataGridTextColumn Header="Article" IsReadOnly="True"  Binding="{Binding Article}" />
+
+                    <DataGridTextColumn Header="Operation ID" IsReadOnly="True" Binding="{Binding Operation_ID}" />
+                    <DataGridTextColumn Header="Operation Description" IsReadOnly="True" Binding="{Binding Operation_Description}" />
+                    <DataGridTextColumn Header="SMV" IsReadOnly="True" Binding="{Binding SMV}" />
+                    <DataGridTextColumn Header="Piece Rate" IsReadOnly="True" Binding="{Binding PieceRate}" />
+                    <DataGridTextColumn Header="OP Sequence" IsReadOnly="False" Binding="{Binding opsequence}" />
+              
+
+                    <!--<DataGridTemplateColumn Header="">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Update" Command="" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>-->
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+
+        <Button Name="btn_view_style_bulletin"  BorderBrush="#29506D" Background="#29506D" Content="View Style bulletin" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="167" Click="Btn_view_style_bulletin_Click"  />
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="8" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565" Grid.ColumnSpan="2"  />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="20,8,0,0" VerticalAlignment="Top" Width="86" MaxWidth="150" MaxHeight="50" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Left" Height="38" Margin="10,8,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Left" Height="38" Margin="105,8,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+            <ComboBox BorderBrush="#29506D"   x:Name="combo_orders" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="145"      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,0,0,0" SelectionChanged="Combo_orders_SelectionChanged"
+            />
+        </Border>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="OrderID:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="293,8,0,0" VerticalAlignment="Top" Width="86" MaxWidth="150" MaxHeight="50" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Left" Height="38" Margin="283,8,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Left" Height="38" Margin="378,8,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+            <ComboBox BorderBrush="#29506D"   x:Name="combo_style" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="145"      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,0,0,0" SelectionChanged="Combo_style_SelectionChanged"
+            />
+        </Border>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Style Code:" HorizontalAlignment="Left" Margin="283,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="563,6,0,0" VerticalAlignment="Top" Width="86" MaxWidth="150" MaxHeight="50" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Left" Height="38" Margin="553,6,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Left" Height="38" Margin="648,6,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+            <ComboBox BorderBrush="#29506D"   x:Name="combo_article" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="145"      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,0,0,0" 
+            />
+        </Border>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Article:" HorizontalAlignment="Left" Margin="553,8,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+    </Grid>
+</UserControl>

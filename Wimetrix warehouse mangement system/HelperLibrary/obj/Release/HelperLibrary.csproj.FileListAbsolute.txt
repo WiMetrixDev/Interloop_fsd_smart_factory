@@ -1,0 +1,22 @@
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Release\HelperLibrary.dll
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Release\HelperLibrary.pdb
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.dll
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.pdb
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Release\HelperLibrary.dll
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Release\HelperLibrary.pdb
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.dll
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Release\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\bin\Release\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\bin\Release\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Release\HelperLibrary.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Release\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Release\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Release\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Release\HelperLibrary.pdb

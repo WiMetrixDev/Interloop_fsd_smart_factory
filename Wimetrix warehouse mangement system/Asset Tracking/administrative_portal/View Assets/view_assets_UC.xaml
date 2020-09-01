@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="Wimetrix_warehouse_mangement_system.Asset_Tracking.administrative_portal.View_Assets.view_assets_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.Asset_Tracking.administrative_portal.View_Assets"
+                    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+              mc:Ignorable="d" 
+         MinHeight="450" MinWidth="884.211">
+    <Grid Background="White" VerticalAlignment="Stretch" MinHeight="375" MinWidth="580">
+
+        <Grid>
+            <Border Background="White" BorderBrush="#29506D" BorderThickness="1" Visibility="Collapsed" CornerRadius="01,01,01,01" HorizontalAlignment="Left" Height="38" Margin="8,8,0,0" VerticalAlignment="Top" Width="250" MaxWidth="250" MaxHeight="50" >
+                <TextBox BorderBrush="#29506D" IsEnabled="True" Text="" materialDesign:HintAssist.Hint="Search Machine" TextAlignment="Center" x:Name="text_operation" HorizontalAlignment="Left" Width="230"
+      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,-5,0,5" KeyUp="Text_operation_KeyUp" TextChanged="text_operation_TextChanged" 
+            />
+            </Border>
+            <Border Background="White" BorderBrush="#29506D" Visibility="Visible" BorderThickness="1" CornerRadius="01,01,01,01" HorizontalAlignment="Left" Height="38" Margin="8,8,0,0" VerticalAlignment="Top" Width="250" MaxWidth="250" MaxHeight="50" >
+                <TextBox BorderBrush="#29506D" IsEnabled="True" Text="" materialDesign:HintAssist.Hint="Search RFID" TextAlignment="Center" x:Name="text_rfid_search" HorizontalAlignment="Left" Width="230"
+      
+                    Typography.StylisticSet19="True"
+                    TextElement.FontFamily="Tahoma"
+                    IsHitTestVisible="True" Margin="10,-5,0,5" KeyUp="text_rfid_search_KeyUp"
+            />
+            </Border>
+        </Grid>
+        <DockPanel VerticalAlignment="Stretch" Margin="3,70,7,10">
+            <DataGrid Name="grid_update_location" CellEditEnding="Grid_issuance_CellEditEnding" HorizontalScrollBarVisibility="Visible" ItemsSource="{Binding asset_list}"  AutoGenerateColumns="False"   Grid.Column="3" >
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Header="Select" IsReadOnly="False" Binding="{Binding Select}" />
+                    <DataGridTextColumn Header="Serial" IsReadOnly="True" Binding="{Binding Machine}" />
+                    <DataGridTextColumn Header="Type" IsReadOnly="True" Binding="{Binding Type}" />
+                    <DataGridTextColumn Header="Line" IsReadOnly="True"  Binding="{Binding Line}" />
+                    <DataGridTextColumn Header="Floor" IsReadOnly="True"  Binding="{Binding Location}" />
+                    <DataGridTextColumn Header="Price" IsReadOnly="False" Binding="{Binding Price}" />
+                    <DataGridTextColumn Header="RFID" IsReadOnly="True" Binding="{Binding RFID}" />
+                    <DataGridTextColumn Header="Country" IsReadOnly="True" Binding="{Binding Country}" />
+                    <DataGridTextColumn Header="Sub Type" IsReadOnly="True" Binding="{Binding Sub_Type}" />
+                    <DataGridTextColumn Header="Model" IsReadOnly="True" Binding="{Binding Model}" />
+                    <DataGridTextColumn Header="Vendor" IsReadOnly="True" Binding="{Binding Vendor}" />
+                    <DataGridTextColumn Header="Supplier"  IsReadOnly="True" Binding="{Binding Supplier}" />
+                    <DataGridTextColumn Header="Brand"  IsReadOnly="True" Binding="{Binding Brand}" />
+                    <DataGridTextColumn Header="IGP Date"  IsReadOnly="True" Binding="{Binding igp_date}" />
+                    <DataGridTextColumn Header="Year of Manufacture"  IsReadOnly="True" Binding="{Binding manufacturing_year}" />
+                    <DataGridTextColumn Header="Installation Date"  IsReadOnly="True" Binding="{Binding installation_date}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="12" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565" Grid.ColumnSpan="2"  />
+        <Button x:Name="btn_update_price" BorderBrush="#29506D" Background="#29506D"  Content="Update Price" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="159" Click="btn_update_price_Click"  />
+        <Button x:Name="btn_update_machine_lines" BorderBrush="#29506D" Background="#29506D"  Content="Refresh Machine Locations" HorizontalAlignment="Right" Margin="0,10,174,0" VerticalAlignment="Top" Width="210" Click="btn_update_machine_lines_Click"  />
+
+
+    </Grid>
+</UserControl>

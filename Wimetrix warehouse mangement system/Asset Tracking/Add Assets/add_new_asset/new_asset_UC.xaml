@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="Wimetrix_warehouse_mangement_system.Asset_Tracking.Add_Assets.add_new_asset.new_asset_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.Asset_Tracking.Add_Assets.add_new_asset"
+                             mc:Ignorable="d" Height="441.928" Width="705.157">
+    <Grid Background="White" VerticalAlignment="Stretch" MinHeight="375" MinWidth="580">
+
+        <Button x:Name="btn_upload_order"  BorderBrush="#29506D" Background="#29506D" Content="Submit" HorizontalAlignment="Center" Margin="260,386,278,0" VerticalAlignment="Top" Width="167" />
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="8" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565" Grid.ColumnSpan="2"  />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="114,57,317,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Order:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="164" Height="38" Margin="0,0,36,0" />
+        </Border>
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="240,57,170,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <TextBox BorderBrush="#29506D"   x:Name="text_order" TextAlignment="Center" HorizontalAlignment="Left" Width="175"
+      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,-9,0,0" Height="32" VerticalAlignment="Top" 
+            />
+        </Border>
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="114,121,317,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Style:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="164" Height="38" Margin="0,0,36,0" />
+        </Border>
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="266,121,195,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <TextBox BorderBrush="#29506D" IsEnabled="True" Text="" TextAlignment="Center" x:Name="text_style" HorizontalAlignment="Left" Width="175"
+      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,-5,0,5" 
+            />
+        </Border>
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="151,182,354,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Article:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="164" Height="38" Margin="0,0,36,0" />
+        </Border>
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="288,182,217,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <TextBox BorderBrush="#29506D" IsEnabled="True" Text="" TextAlignment="Center" x:Name="text_article" HorizontalAlignment="Left" Width="175"
+      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,-5,0,5" 
+            />
+        </Border>
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="150,241,355,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Size:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="164" Height="38" Margin="0,0,36,0" />
+        </Border>
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="288,241,217,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <TextBox BorderBrush="#29506D" IsEnabled="True" TextAlignment="Center" x:Name="text_size" HorizontalAlignment="Left" Width="175"
+      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,-5,0,5" 
+            />
+        </Border>
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Center" Height="38" Margin="150,303,355,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Color:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="164" Height="38" Margin="0,0,36,0" />
+        </Border>
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Center" Height="38" Margin="288,303,217,0" VerticalAlignment="Top" Width="200" MaxWidth="200" MaxHeight="50" >
+            <TextBox BorderBrush="#29506D" IsEnabled="True" Text="" TextAlignment="Center" x:Name="text_color" HorizontalAlignment="Left" Width="175"
+      
+                Typography.StylisticSet19="True"
+                TextElement.FontFamily="Tahoma"
+                IsHitTestVisible="True" Margin="10,-5,0,5" 
+            />
+        </Border>
+    </Grid>
+</UserControl>
+

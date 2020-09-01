@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\info\Desktop\Smart software\|D:\Wimetrix-desktop Applications\Interloop Faislabad\Software exe\|D:\Wimetrix-desktop Applications\Rainbow textile jordan\Wimetrix warehouse mangement system\Software EXE\|C:\Users\Ahsan Noor\Desktop\Wimetrix smart factory system\|D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Software exe\</PublishUrlHistory>
+    <InstallUrlHistory>\\localhost\Users\info\Desktop\Smart software\|\\10.11.0.21\Smart Software\|\\localhost\Users\Ahsan Noor\Desktop\Wimetrix smart factory system\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>\\10.11.0.21\Smart Software\|\\192.168.4.114\Wimetrix Management System\|\\PRECISION-T3600\Wimetrix Management System\</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,82 @@
+﻿<Window x:Class="Wimetrix_warehouse_mangement_system.Login.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.Login"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+            mc:Ignorable="d"
+        Title="Database Connection
+        " Height="500" Width="800" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True"  BorderThickness="1,0,0,0" WindowStartupLocation="CenterScreen">
+    <Grid Margin="-2,10,2,-10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Assets/logo/wiii.png" HorizontalAlignment="Center" Height="53" Margin="294,0,107.331,0" VerticalAlignment="Top" Width="204"/>
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="235,255,0,0" VerticalAlignment="Top" Width="130" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,0,10,0" HorizontalAlignment="Left" Height="38" Margin="357,255,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" />
+        <PasswordBox  x:Name="text_password"  Margin="372,260,93,0" VerticalAlignment="Top" Width="145" 
+      
+            Typography.StylisticSet19="True"
+            TextElement.FontFamily="Tahoma"
+            IsHitTestVisible="True"
+            />
+        <Button x:Name="db_login" Content="Login" BorderBrush="Transparent" Background="#29506D"  HorizontalAlignment="Center" Margin="352,329,151,135" Width="107"  Height="Auto" Click="db_connect_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.37"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+
+
+        <Button x:Name="btn_windowClose" Content="X" FontSize="13" HorizontalAlignment="Right" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40"  Height="25" Grid.Column="1" Margin="0,0,10,0" Background="Red" Click="btn_windowClose_Click"/>
+
+
+        <Button x:Name="btn_setIP" BorderBrush="Transparent"  Background="Transparent"  HorizontalAlignment="Left" Margin="113,408,0,16" Width="66"  Height="Auto" Click="btn_setIP_Click" Grid.Column="1">
+            <materialDesign:PackIcon Foreground="#29506D" Kind="Information" Height="34" Width="32"/>
+
+        </Button>
+        <Button x:Name="btn_windowMinimize" Content="-" FontSize="13" HorizontalAlignment="Right" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40"  Height="25" Grid.Column="1" Margin="0,0,55,0" Background="#29506D" RenderTransformOrigin="1.317,0.456" Click="btn_windowMinimize_Click"/>
+        <Label  x:Name="label_password_Copy" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Password:" HorizontalAlignment="Left" Margin="243,255,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="129" Height="38" />
+        <Border Background="#29506D" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="235,195,0,0" VerticalAlignment="Top" Width="130" MaxWidth="150" MaxHeight="50" />
+        <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,0,10,0" HorizontalAlignment="Left" Height="38" Margin="357,195,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" />
+        <TextBox  x:Name="text_username"  Margin="372,200,93,0" VerticalAlignment="Top" Width="145"
+      
+            Typography.StylisticSet19="True"
+            TextElement.FontFamily="Tahoma"
+            IsHitTestVisible="True"
+            />
+        <Label  x:Name="label_username" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Username:" HorizontalAlignment="Left" Margin="243,195,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="129" Height="38" />
+        <Label Content="Set IP" Grid.Column="1" HorizontalAlignment="Left" Margin="127,458,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="12" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="124,0,0,52" Height="40" Width="565" Grid.ColumnSpan="2"  />
+
+        <materialDesign:DialogHost IsOpen="False" Name="ip_popup"  CloseOnClickAway="False" Grid.ColumnSpan="2">
+            <materialDesign:DialogHost.DialogContent>
+                <Grid Margin="120">
+                    <Label Content="Please provide IP Address" HorizontalAlignment="Center" Margin="0,-60,0,0" VerticalAlignment="Top" FontSize="20"  FontWeight="Bold" Grid.Column="1"/>
+                    <DockPanel x:Name="ip_dock" Background="Transparent"  Margin="0,0,0,0">
+                        <Border Background="#438830" BorderThickness="0" CornerRadius="50,0,0,0" HorizontalAlignment="Left" Height="38" Margin="0,0,0,0" VerticalAlignment="Top" Width="130" MaxWidth="150" MaxHeight="50" />
+                        <Border Background="White" BorderBrush="#438830" BorderThickness="5" CornerRadius="0,0,0,0" HorizontalAlignment="Left" Height="38" Margin="0,0,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" />
+                        <Label  x:Name="label_ip" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="IP:" HorizontalAlignment="Left" Margin="-300,0,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="129" Height="38" />
+                        <TextBox  x:Name="text_ip"  Margin="-180,5,0,0" VerticalAlignment="Top" Width="145"
+      
+                            Typography.StylisticSet19="True"
+                            TextElement.FontFamily="Tahoma"
+                            IsHitTestVisible="True"
+                            />
+                        <Button x:Name="btn_set" Content="Set" Background="#48576C" BorderBrush="#48576C" HorizontalAlignment="Left" Margin="20,0,0,0" Width="106"  Height="Auto" Grid.Column="1" Click="btn_set_Click" />
+
+                    </DockPanel>
+                </Grid>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+    </Grid>
+</Window>

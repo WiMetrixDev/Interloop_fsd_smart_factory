@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{549126D3-49C6-4D6D-A821-96CA02F42552}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Wimetrix_warehouse_mangement_system</RootNamespace>
+    <AssemblyName>Wimetrix Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\info\Desktop\Smart software\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>\\localhost\Users\info\Desktop\Smart software\</InstallUrl>
+    <UpdateUrl>\\10.11.0.21\Smart Software\</UpdateUrl>
+    <ProductName>WiMetrix Smart Factory System</ProductName>
+    <PublisherName>WiMetrix</PublisherName>
+    <MinimumRequiredVersion>1.0.0.2</MinimumRequiredVersion>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>smart_factory.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>22B23F5FAF71FDB6A4923974E5E94C7DD7D8F942</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Wimetrix warehouse mangement system_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rainbow textile jordan\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Debug\CustomControl.dll</HintPath>
+    </Reference>
+    <Reference Include="De.TorstenMandelkow.MetroChart, Version=0.9.5818.20693, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ModernUICharts.WPF.Beta.0.9.1\lib\De.TorstenMandelkow.MetroChart.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.WPF, Version=4.7.0.37774, Culture=neutral, PublicKeyToken=0758b07a11a4f466, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.WPF.4.7.0.9\lib\net40\FontAwesome.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.0.0.14576, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.1\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.0.1205, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.0.1205\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Reader, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rainbow textile jordan\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\Debug\Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="SRP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\XBeeLibrary.Core.1.0.0\lib\netstandard2.0\SRP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.109.2\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.109.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.109.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="XBeeLibrary.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\XBeeLibrary.Core.1.0.0\lib\netstandard2.0\XBeeLibrary.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Asset Tracking\Add Assets\add_new_asset\asset_excel_model.cs" />
+    <Compile Include="Asset Tracking\Add Assets\add_new_asset\new_asset_UC.xaml.cs">
+      <DependentUpon>new_asset_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\Add Assets\asset_uc.xaml.cs">
+      <DependentUpon>asset_uc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\administrative_portal\Add new Assets\add_new_asset.xaml.cs">
+      <DependentUpon>add_new_asset.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\administrative_portal\Add new Assets\uploaded_asset_model.cs" />
+    <Compile Include="Asset Tracking\administrative_portal\administrative_portal.xaml.cs">
+      <DependentUpon>administrative_portal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\administrative_portal\View Assets\admin_view_asset_model.cs" />
+    <Compile Include="Asset Tracking\administrative_portal\View Assets\view_assets_UC.xaml.cs">
+      <DependentUpon>view_assets_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\Asset Allocation\asset_allocation.xaml.cs">
+      <DependentUpon>asset_allocation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\Asset Allocation\asset_allocation_model.cs" />
+    <Compile Include="Asset Tracking\Asset Allocation\location_model.cs" />
+    <Compile Include="Asset Tracking\Asset Summary\asset_summary.xaml.cs">
+      <DependentUpon>asset_summary.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\Asset Track\asset_allocation_log_model.cs" />
+    <Compile Include="Asset Tracking\Asset Track\asset_tracking_UC.xaml.cs">
+      <DependentUpon>asset_tracking_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\Asset Track\asset_track_model.cs" />
+    <Compile Include="Asset Tracking\Upload Parts\machine_parts_UC.xaml.cs">
+      <DependentUpon>machine_parts_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\Upload Parts\parts_model.cs" />
+    <Compile Include="Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.xaml.cs">
+      <DependentUpon>upload_parts_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.xaml.cs">
+      <DependentUpon>view_parts_list_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cutting Management\Cutting dept\cutting_model.cs" />
+    <Compile Include="Cutting Management\Cutting dept\cutting_UC.xaml.cs">
+      <DependentUpon>cutting_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cutting Management\Cutting dept\Reader\CCommondMethod.cs" />
+    <Compile Include="Cutting Management\Cutting dept\Reader\DevControl.cs" />
+    <Compile Include="Cutting Management\Cutting dept\Reader\DeviceClass.cs" />
+    <Compile Include="Cutting Management\Cutting dept\Reader\ErrorHandling.cs" />
+    <Compile Include="Cutting Management\Cutting dept\Reader\InventoryBuffer.cs" />
+    <Compile Include="Cutting Management\Cutting dept\Reader\OperateTagBuffer.cs" />
+    <Compile Include="Cutting Management\Cutting dept\Reader\readerDataHandlers.cs" />
+    <Compile Include="Cutting Management\Cutting dept\Reader\ReaderSetting.cs" />
+    <Compile Include="Cutting Management\Cutting dept\serial\serial_weight.cs" />
+    <Compile Include="Http\api-files.cs" />
+    <Compile Include="Http\http_request.cs" />
+    <Compile Include="Login\login.xaml.cs">
+      <DependentUpon>login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\CutReport\cutreport_UC.xaml.cs">
+      <DependentUpon>cutreport_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\CutReport\uploaded_cut_report_model.cs" />
+    <Compile Include="SPTS\CutReport\upload_cutreport.xaml.cs">
+      <DependentUpon>upload_cutreport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\CutReport\view cutreport\cutreport_model.cs" />
+    <Compile Include="SPTS\CutReport\view cutreport\view_cutreport.xaml.cs">
+      <DependentUpon>view_cutreport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Operations\Add operation\add_operation.xaml.cs">
+      <DependentUpon>add_operation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Operations\operations_UC\operations_UC.xaml.cs">
+      <DependentUpon>operations_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Operations\View operations\operation_model.cs" />
+    <Compile Include="SPTS\Operations\View operations\view_operations.xaml.cs">
+      <DependentUpon>view_operations.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Orders\Add Order\add_order.xaml.cs">
+      <DependentUpon>add_order.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Orders\order_UC.xaml.cs">
+      <DependentUpon>order_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.xaml.cs">
+      <DependentUpon>add_manual_style_bulletin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Style Bulletin\Manual Style Bulletin\upload_manual_style_bulletin_model.cs" />
+    <Compile Include="SPTS\Style Bulletin\style_bulletin_UC.xaml.cs">
+      <DependentUpon>style_bulletin_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Style Bulletin\upload_style_bulletin.xaml.cs">
+      <DependentUpon>upload_style_bulletin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Style Bulletin\upload_style_bulletin_model.cs" />
+    <Compile Include="SPTS\Style Bulletin\View Style Bulletin\style_bulletin_model.cs" />
+    <Compile Include="SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.xaml.cs">
+      <DependentUpon>view_style_bulletin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Workers\Add Worker\add_worker.xaml.cs">
+      <DependentUpon>add_worker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Workers\View Worker\view_worker.xaml.cs">
+      <DependentUpon>view_worker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\Workers\View Worker\workers_model.cs" />
+    <Compile Include="SPTS\Workers\worker_UC.xaml.cs">
+      <DependentUpon>worker_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sql_configurations.cs" />
+    <Compile Include="Warehouse Management\Assign Rfid\assign_rfid.xaml.cs">
+      <DependentUpon>assign_rfid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Assign Rfid\assign_rfid_grid_model.cs" />
+    <Compile Include="Warehouse Management\Card Assign\assign_rfid_UC.xaml.cs">
+      <DependentUpon>assign_rfid_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Configuration files\departments.cs" />
+    <Compile Include="Warehouse Management\Dashboard\stockReport.xaml.cs">
+      <DependentUpon>stockReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Departmental Allocation\departmental_allocation_UC.xaml.cs">
+      <DependentUpon>departmental_allocation_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Departmental Consumption\deparmental_consumption.xaml.cs">
+      <DependentUpon>deparmental_consumption.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.xaml.cs">
+      <DependentUpon>add_packing_list_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Generate Packing List\Add Packing List\roll_model.cs" />
+    <Compile Include="Warehouse Management\Generate Packing List\packing_list_UC.xaml.cs">
+      <DependentUpon>packing_list_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.xaml.cs">
+      <DependentUpon>view_packing_list_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Manual Stocking\manual_stocking_UC.xaml.cs">
+      <DependentUpon>manual_stocking_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Manual Stocking\Stock IN\stock_in_model.cs" />
+    <Compile Include="Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.xaml.cs">
+      <DependentUpon>stock_in_uc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Manual Stocking\Stock Out\stock_out_model.cs" />
+    <Compile Include="Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.xaml.cs">
+      <DependentUpon>stock_out_uc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Manual Stocking\stocking_model.cs" />
+    <Compile Include="Warehouse Management\Roll Return\roll_return_UC.xaml.cs">
+      <DependentUpon>roll_return_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Transfer Rolls\transfer_rolls_UC.xaml.cs">
+      <DependentUpon>transfer_rolls_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Update location\update_location_model.cs" />
+    <Compile Include="Warehouse Management\Update location\update_location_grid_model.cs" />
+    <Compile Include="Warehouse Management\Update location\update_location_UC.xaml.cs">
+      <DependentUpon>update_location_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Update location\warehouse_location_model.cs" />
+    <Compile Include="Warehouse Management\Upload Excel\httpRequests.cs" />
+    <Compile Include="Warehouse Management\Upload Excel\import_packing_list_UC.xaml.cs">
+      <DependentUpon>import_packing_list_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Management\Upload Excel\JavaScriptSerializer.cs" />
+    <Compile Include="Warehouse Management\Upload Excel\uploaded_excel_model.cs" />
+    <Compile Include="Warehouse Management\Upload Excel\upload_excel_model.cs" />
+    <Compile Include="Warehouse Management\view Packing List\packing_list_model.cs" />
+    <Compile Include="Warehouse Management\view Packing List\view_packinglist_UC.xaml.cs">
+      <DependentUpon>view_packinglist_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="wlecome_window.xaml.cs">
+      <DependentUpon>wlecome_window.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Asset Tracking\Add Assets\add_new_asset\new_asset_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Add Assets\asset_uc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\administrative_portal\Add new Assets\add_new_asset.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\administrative_portal\administrative_portal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\administrative_portal\View Assets\view_assets_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Asset Allocation\asset_allocation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Asset Summary\asset_summary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Asset Track\asset_tracking_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Upload Parts\machine_parts_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cutting Management\Cutting dept\cutting_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="index_page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login\login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login\login_view.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Assets\errorCode.cs" />
+    <Compile Include="index_page.xaml.cs">
+      <DependentUpon>index_page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login\login_viewModel\login_viewModelClass.cs" />
+    <Compile Include="Login\login_view.xaml.cs">
+      <DependentUpon>login_view.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="SPTS\CutReport\cutreport_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\CutReport\upload_cutreport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\CutReport\view cutreport\view_cutreport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Operations\Add operation\add_operation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Operations\operations_UC\operations_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Operations\View operations\view_operations.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Orders\Add Order\add_order.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Orders\order_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Style Bulletin\style_bulletin_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Style Bulletin\upload_style_bulletin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Workers\Add Worker\add_worker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Workers\View Worker\view_worker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\Workers\worker_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Assign Rfid\assign_rfid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Card Assign\assign_rfid_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Dashboard\stockReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Departmental Allocation\departmental_allocation_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Departmental Consumption\deparmental_consumption.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Generate Packing List\packing_list_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Manual Stocking\manual_stocking_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Roll Return\roll_return_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Transfer Rolls\transfer_rolls_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Update location\update_location_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\Upload Excel\import_packing_list_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warehouse Management\view Packing List\view_packinglist_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="wlecome_window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Assets\logo\WiMetrix3 %281%29.psd" />
+    <None Include="Assets\logo\WiMetrix4.psd" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Wimetrix warehouse mangement system_1_TemporaryKey.pfx" />
+    <None Include="Wimetrix warehouse mangement system_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logo\add-to-cart.png" />
+    <Resource Include="Assets\logo\addtocardpng.png" />
+    <Resource Include="Assets\logo\background.jpg" />
+    <Resource Include="Assets\logo\badge.png" />
+    <Resource Include="Assets\logo\cart.png" />
+    <Resource Include="Assets\logo\dashboard.png" />
+    <Resource Include="Assets\logo\Final-min.jpg" />
+    <Resource Include="Assets\logo\Final-min.png" />
+    <Resource Include="Assets\logo\footballpng.png" />
+    <Resource Include="Assets\logo\laser.png" />
+    <Resource Include="Assets\logo\LCD_WiMetrix.jpg" />
+    <Resource Include="Assets\logo\LCD_WiMetrix_Transparent.jpg" />
+    <Resource Include="Assets\logo\logout.png" />
+    <Resource Include="Assets\logo\shoppingcart.png" />
+    <Resource Include="Assets\logo\sphere.png" />
+    <Resource Include="Assets\logo\wiii.png" />
+    <Resource Include="Assets\logo\WiMetrix.jpg" />
+    <Resource Include="Assets\logo\WiMetrix.png" />
+    <Resource Include="Assets\logo\WiMetrix4.png" />
+    <Resource Include="Assets\logo\WiMetrix5.png" />
+    <Resource Include="Assets\logo\WiMetrixFinalLowRes1.jpg" />
+    <Resource Include="Assets\logo\WiMetrixFinalLowRes1.png" />
+    <Resource Include="Assets\logo\WiMetrixFinalLowRes2.jpg" />
+    <Resource Include="Assets\logo\WiMetrixFinalLowRes2.png" />
+    <Resource Include="Assets\logo\WiMetrixFinalLowRes3.jpg" />
+    <Resource Include="Assets\logo\WiMetrixFinalLowRes3.png" />
+    <Resource Include="Assets\logo\WiMetrixLowRes.jpg" />
+    <Resource Include="Assets\logo\WiMetrixLowRes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logo\Il.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logo\il-big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logo\il-big2.png" />
+    <Resource Include="Assets\logo\il-big3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logo\il-big4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logo\il-big5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logo\il-big-final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login\login_view\" />
+    <Folder Include="SPTS\CutReport\add_manual_cutreport\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="barcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="smart_factory.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="System.Runtime.Numerics">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>

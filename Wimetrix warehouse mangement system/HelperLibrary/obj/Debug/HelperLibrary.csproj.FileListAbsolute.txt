@@ -1,0 +1,105 @@
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\tech\OneDrive\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\Smart Software\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Smart Software\SPTS\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software Current\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\US-II\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\DELL\Google Drive\WiMetrix\Tech\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\DELL\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\Dante\Documents\GitKraken\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CopyComplete
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\Ahsan Noor\Documents\GitHub\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Bismillah\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+D:\Wimetrix-desktop Applications\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Bismillah\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+C:\Users\Dante\Documents\Visual Studio 2017\Projects\Style\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+C:\Users\Dante\Documents\Visual Studio 2017\Projects\Style\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+C:\Users\Dante\Documents\Visual Studio 2017\Projects\Style\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+C:\Users\Dante\Documents\Visual Studio 2017\Projects\Style\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Dante\Documents\Visual Studio 2017\Projects\Style\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+C:\Users\Dante\Documents\Visual Studio 2017\Projects\Style\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Styles\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Styles\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Styles\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+D:\Wimetrix-desktop Applications\Styles\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+D:\Wimetrix-desktop Applications\Styles\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Styles\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Style Textile\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Style Textile\Smart Software SPTS -v2\HelperLibrary\bin\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Style Textile\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache
+D:\Wimetrix-desktop Applications\Style Textile\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+D:\Wimetrix-desktop Applications\Style Textile\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Style Textile\Smart Software SPTS -v2\HelperLibrary\obj\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\HelperLibrary\bin\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\HelperLibrary\bin\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\HelperLibrary\obj\Debug\HelperLibrary.csproj.CoreCompileInputs.cache
+D:\Wimetrix-desktop Applications\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\HelperLibrary\obj\Debug\HelperLibrary.dll
+D:\Wimetrix-desktop Applications\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\HelperLibrary\obj\Debug\HelperLibrary.pdb
+D:\Wimetrix-desktop Applications\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\HelperLibrary\obj\Debug\HelperLibrary.csprojAssemblyReference.cache

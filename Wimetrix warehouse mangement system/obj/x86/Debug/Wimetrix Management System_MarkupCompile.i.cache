@@ -1,0 +1,20 @@
+﻿Wimetrix Management System
+
+
+winexe
+C#
+.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\
+Wimetrix_warehouse_mangement_system
+none
+false
+DEBUG;TRACE
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\App.xaml
+47686468488
+
+96-119445347
+140-605865567
+Asset Tracking\Add Assets\add_new_asset\new_asset_UC.xaml;Asset Tracking\Add Assets\asset_uc.xaml;Asset Tracking\administrative_portal\Add new Assets\add_new_asset.xaml;Asset Tracking\administrative_portal\administrative_portal.xaml;Asset Tracking\administrative_portal\View Assets\view_assets_UC.xaml;Asset Tracking\Asset Allocation\asset_allocation.xaml;Asset Tracking\Asset Summary\asset_summary.xaml;Asset Tracking\Asset Track\asset_tracking_UC.xaml;Asset Tracking\Upload Parts\machine_parts_UC.xaml;Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.xaml;Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.xaml;Cutting Management\Cutting dept\cutting_UC.xaml;index_page.xaml;Login\login.xaml;Login\login_view.xaml;SPTS\CutReport\cutreport_UC.xaml;SPTS\CutReport\upload_cutreport.xaml;SPTS\CutReport\view cutreport\view_cutreport.xaml;SPTS\Operations\Add operation\add_operation.xaml;SPTS\Operations\operations_UC\operations_UC.xaml;SPTS\Operations\View operations\view_operations.xaml;SPTS\Orders\Add Order\add_order.xaml;SPTS\Orders\order_UC.xaml;SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.xaml;SPTS\Style Bulletin\style_bulletin_UC.xaml;SPTS\Style Bulletin\upload_style_bulletin.xaml;SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.xaml;SPTS\Workers\Add Worker\add_worker.xaml;SPTS\Workers\View Worker\view_worker.xaml;SPTS\Workers\worker_UC.xaml;Warehouse Management\Assign Rfid\assign_rfid.xaml;Warehouse Management\Card Assign\assign_rfid_UC.xaml;Warehouse Management\Dashboard\stockReport.xaml;Warehouse Management\Departmental Allocation\departmental_allocation_UC.xaml;Warehouse Management\Departmental Consumption\deparmental_consumption.xaml;Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.xaml;Warehouse Management\Generate Packing List\packing_list_UC.xaml;Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.xaml;Warehouse Management\Manual Stocking\manual_stocking_UC.xaml;Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.xaml;Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.xaml;Warehouse Management\Roll Return\roll_return_UC.xaml;Warehouse Management\Transfer Rolls\transfer_rolls_UC.xaml;Warehouse Management\Update location\update_location_UC.xaml;Warehouse Management\Upload Excel\import_packing_list_UC.xaml;Warehouse Management\view Packing List\view_packinglist_UC.xaml;wlecome_window.xaml;
+
+True
+

@@ -1,0 +1,240 @@
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Wimetrix Management System.exe.config
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Wimetrix Management System.exe.manifest
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Wimetrix Management System.application
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Wimetrix Management System.exe
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Wimetrix Management System.pdb
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\netstandard.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.AppContext.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Collections.Concurrent.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Collections.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Collections.NonGeneric.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Collections.Specialized.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.ComponentModel.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.ComponentModel.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.ComponentModel.TypeConverter.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Console.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Data.Common.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.Contracts.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.Debug.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.Process.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.StackTrace.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.Tools.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.TraceSource.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Diagnostics.Tracing.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Drawing.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Dynamic.Runtime.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Globalization.Calendars.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Globalization.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Globalization.Extensions.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.Compression.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.Compression.ZipFile.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.FileSystem.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.FileSystem.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.FileSystem.Watcher.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.IsolatedStorage.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.MemoryMappedFiles.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.Pipes.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Linq.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Linq.Expressions.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Linq.Parallel.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Linq.Queryable.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Http.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.NameResolution.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.NetworkInformation.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Ping.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Requests.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Security.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Sockets.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.WebHeaderCollection.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.WebSockets.Client.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.WebSockets.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.ObjectModel.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Reflection.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Reflection.Extensions.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Reflection.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Resources.Reader.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Resources.ResourceManager.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Resources.Writer.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.Extensions.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.Handles.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.InteropServices.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.Numerics.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.Serialization.Json.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Runtime.Serialization.Xml.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.Claims.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.Cryptography.Csp.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.Cryptography.Encoding.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.Cryptography.Primitives.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.Principal.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Security.SecureString.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Text.Encoding.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Text.Encoding.Extensions.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Text.RegularExpressions.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Threading.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Threading.Overlapped.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Threading.Tasks.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Threading.Tasks.Parallel.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Threading.Thread.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Threading.ThreadPool.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Threading.Timer.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.ValueTuple.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Xml.ReaderWriter.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Xml.XDocument.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Xml.XmlDocument.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Xml.XmlSerializer.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Xml.XPath.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Xml.XPath.XDocument.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Common.Logging.Core.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Common.Logging.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\CustomControl.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\De.TorstenMandelkow.MetroChart.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\EntityFramework.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\EntityFramework.SqlServer.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\FontAwesome.WPF.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\MaterialDesignColors.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\MaterialDesignThemes.Wpf.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Reader.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\SRP.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Data.SQLite.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Data.SQLite.EF6.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Data.SQLite.Linq.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Http.Formatting.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\XBeeLibrary.Core.dll
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Common.Logging.pdb
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Common.Logging.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Common.Logging.Core.pdb
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Common.Logging.Core.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\EntityFramework.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\EntityFramework.SqlServer.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\FontAwesome.WPF.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\MaterialDesignThemes.Wpf.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\Newtonsoft.Json.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Data.SQLite.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Data.SQLite.dll.config
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\bin\x86\Debug\System.Net.Http.Formatting.xml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix warehouse mangement system.csprojAssemblyReference.cache
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System.exe.config
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Add Assets\asset_uc.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\administrative_portal\Add new Assets\add_new_asset.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\administrative_portal\administrative_portal.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\administrative_portal\View Assets\view_assets_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Asset Allocation\asset_allocation.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Asset Summary\asset_summary.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Asset Track\asset_tracking_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Upload Parts\machine_parts_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Cutting Management\Cutting dept\cutting_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\index_page.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Login\login.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Login\login_view.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\CutReport\cutreport_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\CutReport\upload_cutreport.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\CutReport\view cutreport\view_cutreport.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Operations\Add operation\add_operation.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Operations\operations_UC\operations_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Operations\View operations\view_operations.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Orders\Add Order\add_order.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Orders\order_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\style_bulletin_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\upload_style_bulletin.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Workers\Add Worker\add_worker.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Workers\View Worker\view_worker.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Workers\worker_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Assign Rfid\assign_rfid.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Card Assign\assign_rfid_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Dashboard\stockReport.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Departmental Allocation\departmental_allocation_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Departmental Consumption\deparmental_consumption.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Generate Packing List\packing_list_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Manual Stocking\manual_stocking_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Roll Return\roll_return_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Transfer Rolls\transfer_rolls_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Update location\update_location_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Upload Excel\import_packing_list_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\view Packing List\view_packinglist_UC.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\wlecome_window.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\App.g.cs
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System_MarkupCompile.cache
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System_MarkupCompile.lref
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\App.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Add Assets\asset_uc.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\administrative_portal\Add new Assets\add_new_asset.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\administrative_portal\administrative_portal.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\administrative_portal\View Assets\view_assets_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Asset Allocation\asset_allocation.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Asset Summary\asset_summary.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Asset Track\asset_tracking_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Upload Parts\machine_parts_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Cutting Management\Cutting dept\cutting_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\index_page.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Login\login.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Login\login_view.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\CutReport\cutreport_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\CutReport\upload_cutreport.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\CutReport\view cutreport\view_cutreport.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Operations\Add operation\add_operation.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Operations\operations_UC\operations_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Operations\View operations\view_operations.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Orders\Add Order\add_order.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Orders\order_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\style_bulletin_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\upload_style_bulletin.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Workers\Add Worker\add_worker.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Workers\View Worker\view_worker.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\SPTS\Workers\worker_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Assign Rfid\assign_rfid.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Card Assign\assign_rfid_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Dashboard\stockReport.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Departmental Allocation\departmental_allocation_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Departmental Consumption\deparmental_consumption.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Generate Packing List\packing_list_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Manual Stocking\manual_stocking_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Roll Return\roll_return_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Transfer Rolls\transfer_rolls_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Update location\update_location_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\Upload Excel\import_packing_list_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Warehouse Management\view Packing List\view_packinglist_UC.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\wlecome_window.baml
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System.g.resources
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix_warehouse_mangement_system.Properties.Resources.resources
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix warehouse mangement system.csproj.GenerateResource.cache
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix warehouse mangement system.csproj.CoreCompileInputs.cache
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System.exe.manifest
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System.application
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix warehouse mangement system.csproj.CopyComplete
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System.exe
+D:\Wimetrix-desktop Applications\Interloop Faislabad\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\x86\Debug\Wimetrix Management System.pdb

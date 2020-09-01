@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Wimetrix_warehouse_mangement_system.SPTS.Style_Bulletin.upload_style_bulletin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.SPTS.Style_Bulletin"
+              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White" VerticalAlignment="Stretch" MinHeight="375" MinWidth="580">
+        <Grid Margin="0" Grid.ColumnSpan="2">
+            <ProgressBar Name="progress_bar"   Background="White" Foreground="Blue" Minimum="0" Maximum="100" Value="0" Margin="0,56,0,313" Height="Auto" />
+        </Grid>
+        <DockPanel VerticalAlignment="Stretch" Margin="0,90,0,0" Grid.ColumnSpan="2">
+            <DataGrid Name="grid_packing_list" HorizontalScrollBarVisibility="Hidden" ColumnWidth="*" Grid.Column="3" Margin="0,-28,0,0" />
+        </DockPanel>
+
+        <Button Name="btn_excel_import"  BorderBrush="#29506D" Background="#29506D" Content="Import Style bulletin" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="167" Click="btn_excel_import_Click"  />
+        <Button x:Name="btn_excel_upload"  BorderBrush="#29506D" Background="#29506D" Content="Upload Style bulletin" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="167" Click="btn_excel_upload_Click" />
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="8" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565" Grid.ColumnSpan="2"  />
+
+
+        <materialDesign:DialogHost IsOpen="False" Name="popup_status"  CloseOnClickAway="False" Grid.ColumnSpan="2">
+            <materialDesign:DialogHost.DialogContent>
+                <DockPanel HorizontalAlignment="Center" Background="White" Width="1000"  Height="500" Margin="0,0,0,0">
+                    <Label Content="Following is the status of the excel you have uploaded" Margin="0,10,0,0" DockPanel.Dock="Top" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="Auto"></Label>
+                    <DataGrid Name="grid_excel_upload_status_list" ColumnWidth="*" Grid.ColumnSpan="2"  DockPanel.Dock="Top" HorizontalAlignment="Stretch" Height="359" Margin="10,30,10,0"/>
+                    <Button x:Name="btn_popup_ok" Content="OK" Background="#48576C" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20" Width="106"  Height="30" Grid.Column="1" Click="btn_popup_ok_Click"/>
+
+                </DockPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+    </Grid>
+</UserControl>

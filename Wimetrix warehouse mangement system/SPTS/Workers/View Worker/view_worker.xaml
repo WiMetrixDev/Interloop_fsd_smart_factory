@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Wimetrix_warehouse_mangement_system.SPTS.Workers.View_Worker.view_worker"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.SPTS.Workers.View_Worker"
+ mc:Ignorable="d" >
+    <Grid Background="White" VerticalAlignment="Stretch" MinHeight="375" MinWidth="580">
+        <Grid Margin="0" Grid.ColumnSpan="2">
+            <ProgressBar Name="progress_bar"   Background="White" Foreground="Blue" Minimum="0" Maximum="100" Value="0" Margin="0,56,0,313" Height="Auto" />
+        </Grid>
+        <DockPanel VerticalAlignment="Stretch" Margin="0,90,0,0" Grid.ColumnSpan="2">
+            <DataGrid Name="grid_workers_list" HorizontalScrollBarVisibility="Hidden" ColumnWidth="*" Grid.Column="3"  Margin="0,-28,0,0" />
+        </DockPanel>
+
+        <Button Name="btn_load_workers"  BorderBrush="#29506D" Background="#29506D" Content="Load Workers" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="167" Click="Btn_load_workers_Click"   />
+        <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="8" Background="Bisque" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565" Grid.ColumnSpan="2"  />
+
+
+
+    </Grid>
+</UserControl>
