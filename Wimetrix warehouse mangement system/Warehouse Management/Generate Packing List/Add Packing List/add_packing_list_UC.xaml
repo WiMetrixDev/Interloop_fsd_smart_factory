@@ -14,6 +14,7 @@
                        CellEditEnding="grid_generate_packing_list_rolls_CellEditEnding" VerticalScrollBarVisibility="Auto"   materialDesign:DataGridAssist.CellPadding="13 8 8 8" materialDesign:DataGridAssist.ColumnHeaderPadding="8">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Roll No" IsReadOnly="True" CanUserSort="False" Binding="{Binding roll_id}" />
+                <DataGridTextColumn Header="Supplier Roll ID" IsReadOnly="False" CanUserSort="False" Binding="{Binding supplier_roll_id}" />
                 <DataGridTextColumn Header="Weight" IsReadOnly="False" CanUserSort="False" Binding="{Binding weight}" />
             </DataGrid.Columns>
         </DataGrid>
@@ -101,6 +102,7 @@
                             <DataGridTextColumn Header="Fabric GSM" IsReadOnly="False" CanUserSort="False" Binding="{Binding gsm}" />
                             <DataGridTextColumn Header="Fabric Content" IsReadOnly="False" CanUserSort="False" Binding="{Binding fabric_content}" />
                             <DataGridTextColumn Header="Fabric Width" IsReadOnly="False" CanUserSort="False" Binding="{Binding fabric_width}" />
+                            <DataGridTextColumn Header="Supplier Roll ID" IsReadOnly="False" CanUserSort="False" Binding="{Binding supplier_roll_id}" />
                             <DataGridTextColumn Header="Weight" IsReadOnly="False" CanUserSort="False" Binding="{Binding weight}" />
                         </DataGrid.Columns>
                     </DataGrid>

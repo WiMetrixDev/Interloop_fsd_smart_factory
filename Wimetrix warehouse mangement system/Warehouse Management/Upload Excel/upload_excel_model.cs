@@ -33,9 +33,11 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.Upload_Excel
         public String goods_code { get; set; }
         public String supplier_lot { get; set; }
         public String fabric_content { get; set; }
+        public String supplier_roll_id { get; set; }
 
 
-        public upload_excel_model(string item_code, string item_description, string igp_date, string igp_no, string order_no, string customer_name, string customer_code, string dcn_no, string vendor_name, string fabric_type, string yarn_supplier, string yarn_no, string fabric_lot_no, string color_code, string gsm, string fabric_width, string weight, string pcs, string roll_identification, string transaction_type, string roll_id, string fabric_length, string goods_code, string supplier_lot, string fabric_content)
+
+        public upload_excel_model(string item_code, string item_description, string igp_date, string igp_no, string order_no, string customer_name, string customer_code, string dcn_no, string vendor_name, string fabric_type, string yarn_supplier, string yarn_no, string fabric_lot_no, string color_code, string gsm, string fabric_width, string weight, string pcs, string roll_identification, string transaction_type, string roll_id, string fabric_length, string goods_code, string supplier_lot, string fabric_content,String Supplier_roll_id)
         {
             this.item_code = item_code;
             this.item_description = item_description;
@@ -62,6 +64,7 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.Upload_Excel
             this.goods_code = goods_code;
             this.supplier_lot = supplier_lot;
             this.fabric_content = fabric_content;
+            this.supplier_roll_id = Supplier_roll_id;
         }
     }
 }

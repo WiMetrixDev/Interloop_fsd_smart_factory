@@ -42,7 +42,7 @@
                     <DataGridTextColumn Header="DCN" IsReadOnly="True" Binding="{Binding DCN}" />
                     <DataGridTextColumn Header="Supplier Code" IsReadOnly="True" Binding="{Binding supplier_code}" />
                     <DataGridTextColumn Header="Fabric Content" IsReadOnly="True" Binding="{Binding fabric_content}" />
-
+                    <DataGridTextColumn Header="Supplier Roll ID" IsReadOnly="True" Binding="{Binding supplier_roll_id}" />
 
                     <!--<DataGridTemplateColumn Header="">
                         <DataGridTemplateColumn.CellTemplate>

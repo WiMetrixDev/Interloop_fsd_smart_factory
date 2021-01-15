@@ -1387,14 +1387,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wimetrix Management System.exe" size="10203568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wimetrix Management System.exe" size="10204592">
       <assemblyIdentity name="Wimetrix Management System" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HAUf36lFI7JdMEa63qI+e36un0/ctjgXGX2fehkpkpc=</dsig:DigestValue>
+        <dsig:DigestValue>91nzwEPyxocFxA0tw3szFFOp3RAjoaTZ4MedrDJqFto=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

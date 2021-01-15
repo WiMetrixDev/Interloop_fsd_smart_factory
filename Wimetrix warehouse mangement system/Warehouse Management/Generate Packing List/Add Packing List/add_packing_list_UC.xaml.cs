@@ -399,8 +399,8 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.Generate_Pack
                          Fabric_length.ToString(),
                          goods_code.ToString(),
                         supplier_lot.ToString(),
-                        fabric_content.ToString()
-
+                        fabric_content.ToString(),
+                        ""
                         )); ;
             }
             grid_generate_packing_list_rolls.ItemsSource = rolls_list;

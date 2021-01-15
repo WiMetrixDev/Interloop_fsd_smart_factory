@@ -27,7 +27,9 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.view_Packing_
         public String DCN { get; set; }
         public String supplier_code { get; set; }
         public String fabric_content { get; set; }
-        public packing_list_model(String item_code,String order,String customer,String vendor,String fabric_type,String yarn_supplier,String yarn_lot,String fabric_lot,String color,String weight,String roll,String gsm,String goods_code,String IGP_date,String Igp_no,String dcn,String supplier_code, String fabric_content)
+
+        public String supplier_roll_id { get; set; }
+        public packing_list_model(String item_code,String order,String customer,String vendor,String fabric_type,String yarn_supplier,String yarn_lot,String fabric_lot,String color,String weight,String roll,String gsm,String goods_code,String IGP_date,String Igp_no,String dcn,String supplier_code, String fabric_content, String supplier_roll_id)
         {
             this.ERP_Item_Code = item_code;
             this.Internal_Order_No = order;
@@ -47,8 +49,10 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.view_Packing_
             this.DCN = dcn;
             this.supplier_code = supplier_code;
             this.fabric_content = fabric_content;
+            this.supplier_roll_id = supplier_roll_id;
+
 
         }
-       
-   }
+
+    }
 }

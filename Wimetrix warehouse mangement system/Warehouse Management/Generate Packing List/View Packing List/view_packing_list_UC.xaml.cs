@@ -131,7 +131,8 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.Generate_Pack
                     String item_code = root.GetValue("Item Code").ToString();
                     String supllier_code = root.GetValue("Suplier Code").ToString();
                     String fabric_content = root.GetValue("Fabric Content").ToString();
-                    packing_list.Add(new packing_list_model(item_code, Io_no, customer_Code, vendor_name, fabric_type_code, yarn_supplier, yarn_lot_no, fabric_lot_code, color_code, weight, roll_id, gsm, goods_code, igp_date, igp_no, dcn_no, supllier_code,fabric_content));
+                    String supplier_roll_id = root.GetValue("supplier_roll_id").ToString();
+                    packing_list.Add(new packing_list_model(item_code, Io_no, customer_Code, vendor_name, fabric_type_code, yarn_supplier, yarn_lot_no, fabric_lot_code, color_code, weight, roll_id, gsm, goods_code, igp_date, igp_no, dcn_no, supllier_code,fabric_content,supplier_roll_id));
                 }
                 grid_packing_list.ItemsSource = packing_list;
             }

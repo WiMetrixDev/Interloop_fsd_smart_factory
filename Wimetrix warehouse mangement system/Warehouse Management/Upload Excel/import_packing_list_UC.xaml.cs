@@ -63,7 +63,7 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.Upload_Excel
                     //Query to select data from excel
                     string query = String.Format("select [ERP Item Code],[ERP Item Description],[IGP Date],[IGP No],[Internal Order No],[Customer Name],[Customer code]	," +
                         "[DCN No],[Vendor Name],[Fabric Type],[Yarn Supplier],[Yarn Lot No],[Fabric Lot No],[Color Code],[GSM],[Fabric Width],[Weight (Kgs)],[Pcs (No)]," +
-                        "[Roll Identification (Rack, Locator, Bin)],[Transaction Type],[Roll ID],[Fabric Length],[Goods code],[Supplier Lot],[Fabric Content] from[" + SheetName + "]");
+                        "[Roll Identification (Rack, Locator, Bin)],[Transaction Type],[Roll ID],[Fabric Length],[Goods code],[Supplier Lot],[Fabric Content],[Supplier Roll ID] from[" + SheetName + "]");
                     OleDbDataAdapter dataAdapter = new OleDbDataAdapter(query,connectionString);
                     dataSet = new DataTable();
                     dataAdapter.Fill(dataSet);
@@ -136,6 +136,7 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.Upload_Excel
                     var goods_code = row["Goods code"].ToString();
                     var supplier_lot = row["Supplier Lot"].ToString();
                     var fabric_content = row["Fabric Content"].ToString();
+                    var supplier_roll_ID = row["Supplier Roll ID"].ToString();
                     //var reqarm = new System.Collections.Specialized.NameValueCollection();
                     //reqarm.Add("item_code", ERP_Item_Code.ToString());
                     //reqarm.Add("item_description", ERP_Item_Description.ToString());
@@ -185,7 +186,9 @@ namespace Wimetrix_warehouse_mangement_system.Warehouse_Management.Upload_Excel
                          Roll_ID.ToString(),
                          Fabric_width.ToString(),
                          goods_code.ToString(),
-                         supplier_lot.ToString(), fabric_content
+                         supplier_lot.ToString(), 
+                         fabric_content,
+                         supplier_roll_ID
                          )) ;
                     progress_bar.Value = progress_bar.Value + increament;
                     
