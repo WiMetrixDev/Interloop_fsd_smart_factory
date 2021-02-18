@@ -48,5 +48,10 @@ namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.administrative_port
             this.installation_date = installation_date;
             this.Line = line;
         }
+
+        public override string ToString()
+        {
+            return RFID;
+        }
     }
 }

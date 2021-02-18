@@ -142,6 +142,8 @@
                             <MenuItem Name="item_admin"  Header="Administrative Dashboard" Click="Item_manual_allocate_Click" />
                             <Separator  />
                             <MenuItem Name="item_upload_parts_list"  Header="Upload Machine Parts" Click="item_upload_parts_list_Click" />
+                            <Separator  />
+                            <MenuItem Name="item_update_machine_line"  Header="Update Machine Line" Click="item_update_machine_line_Click" />
 
                         </MenuItem>
                     </Menu>

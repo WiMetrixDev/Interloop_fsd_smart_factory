@@ -18,6 +18,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using Wimetrix_warehouse_mangement_system.Asset_Tracking.Asset_Allocation;
 
 namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts.Upload_parts
 {
@@ -28,11 +29,13 @@ namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts.Upload
     {
         private DataTable dataSet;
         static List<parts_model> parts_list = new List<parts_model>();
+        static IList<location_model> location_list = new List<location_model>();
         int upload_count = 0;
         public upload_parts_UC()
         {
             InitializeComponent();
             notification_disptachter();
+            fetch_locations();
         }
         private void btn_excel_import_Click(object sender, RoutedEventArgs e)
         {
@@ -83,71 +86,74 @@ namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts.Upload
         {
             parts_list.Clear();
             progress_bar.Value = 0;
-            if (grid_packing_list.ItemsSource != null)
+            if (combo_location.SelectedIndex > -1)
             {
-                var rows = grid_packing_list.Items;
-                upload_count = 0;
-                int count = dataSet.Rows.Count;
-                float increament = 100 / count;
-                increament = increament + 1;
-                foreach (DataRow row in dataSet.Rows)
+                String location_id ="1";
+                String location_description = (String)combo_location.SelectedItem;
+                foreach (location_model stock_item in location_list)
                 {
-                    var Item = row["Item"].ToString().Trim().ToUpper();
-                    var Description = row["Description"].ToString();
-                    var Organization = row["Organization"].ToString();
-                    var UOM = row["UOM"].ToString();
-                    var Quantity = row["Quantity"].ToString();
-                    if(Item!="" && Description != "")
+                    if (stock_item.Description == location_description)
                     {
-                        parts_list.Add(new parts_model("", Item, Description, Organization, UOM, Quantity));
-                        progress_bar.Value = progress_bar.Value + increament;
+                        location_id = stock_item.Location;
                     }
                 }
-                var packing_json = JsonConvert.SerializeObject(parts_list);
-                var reqarm = new System.Collections.Specialized.NameValueCollection();
-                reqarm.Add("packing_list", packing_json);
-                Http.http_request request = new Http.http_request();
-                Http.HttpResult result = request.send_request_for_error_codes_in_return(reqarm, Http.api_files.insert_part_list);
-                if (result.getresultFlag())
+                if (grid_packing_list.ItemsSource != null)
                 {
-                    showSuccess("Machine parts list has been uploaded");
-                    grid_packing_list.ItemsSource = null;
-                    parts_list.Clear();
-                    JObject json = result.getjsonResult();
-
-                    //var objects = JArray.Parse(json.GetValue("Responses").ToString()); // parse as array  
-                    //foreach (JObject root in objects)
-                    //{
-
-                    //    //String Internal_Order_No = root.GetValue("Order").ToString();
-                    //    //String Weight = root.GetValue("Weight").ToString();
-                    //    //String Fabric_Lot_No = root.GetValue("Fabric Lot").ToString();
-                    //    //String packing_list_code = root.GetValue("packing_list_code").ToString();
-                    //    //String status = root.GetValue("Error_Description").ToString();
-
-                    //    //uploaded_excel_model model = new uploaded_excel_model(Internal_Order_No, Weight, Fabric_Lot_No, packing_list_code, "Successfully uploaded");
-                    //    //Console.WriteLine(model);
-                    //    //uploading_status_list.Add(model);
-
-                    //}
-                }
-                else
-                {
-                    if (result.geterrorCode() == "server001")
+                    var rows = grid_packing_list.Items;
+                    upload_count = 0;
+                    int count = dataSet.Rows.Count;
+                    float increament = 100 / count;
+                    increament = increament + 1;
+                    foreach (DataRow row in dataSet.Rows)
                     {
-                        ShowError("Please Check IP Or Server");
+                        var Item = row["Item"].ToString().Trim().ToUpper();
+                        var Description = row["Description"].ToString();
+                        var Organization = row["Organization"].ToString();
+                        var UOM = row["UOM"].ToString();
+                        var Quantity = row["Quantity"].ToString();
+                        if (Item != "" && Description != "")
+                        {
+                            parts_list.Add(new parts_model("", Item, Description, Organization, UOM, Quantity,""));
+                            progress_bar.Value = progress_bar.Value + increament;
+                        }
+                    }
+                    var packing_json = JsonConvert.SerializeObject(parts_list);
+                    var reqarm = new System.Collections.Specialized.NameValueCollection();
+                    reqarm.Add("packing_list", packing_json);
+                    reqarm.Add("location_id", location_id);
+                    reqarm.Add("location_name", location_description);
+                    Http.http_request request = new Http.http_request();
+                    Http.HttpResult result = request.send_request_for_error_codes_in_return(reqarm, Http.api_files.insert_part_list);
+                    if (result.getresultFlag())
+                    {
+                        showSuccess("Machine parts list has been uploaded");
+                        grid_packing_list.ItemsSource = null;
+                        parts_list.Clear();
+                        JObject json = result.getjsonResult();
                     }
                     else
                     {
-                        ShowError(result.getDescription());
+                        if (result.geterrorCode() == "server001")
+                        {
+                            ShowError("Please Check IP Or Server");
+                        }
+                        else
+                        {
+                            ShowError(result.getDescription());
+                        }
                     }
-                }
 
+                }
+                else
+                {
+                    ShowError("Select Parts list");
+                }
             }
             else
             {
-                ShowError("Select Parts list");
+                ShowError("Select Locations");
             }
+
 
         }
         private DispatcherTimer dispatcherTimer;
@@ -177,6 +183,40 @@ namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts.Upload
             notifier.Background = Brushes.LimeGreen;
             notifier.Visibility = Visibility.Visible;
             dispatcherTimer.Start();
+        }
+
+        public void fetch_locations()
+        {
+            var reqarm = new System.Collections.Specialized.NameValueCollection();
+            Http.http_request request = new Http.http_request();
+            Http.HttpResult result = request.send_request(reqarm, Http.api_files.Asset_parts_locations);
+            if (result.getresultFlag())
+            {
+                location_list.Clear();
+                JObject json = result.getjsonResult();
+                var objects = JArray.Parse(json.GetValue("Locations").ToString()); // parse as array  
+                foreach (JObject root in objects)
+                {
+                    String Location_ID = root.GetValue("location_id").ToString();
+                    String Location_description = root.GetValue("location_name").ToString();
+                    combo_location.Items.Add(Location_description);
+                    location_list.Add(new location_model(Location_ID, Location_description));
+                }
+            }
+            else
+            {
+                if (result.geterrorCode() == "server001")
+                {
+                    ShowError("Please check IP or server");
+                }
+                else
+                {
+                    if (result.geterrorCode() == "API-001")
+                    {
+                        ShowError("No Data found");
+                    }
+                }
+            }
         }
     }
 }

@@ -255,6 +255,15 @@ namespace Wimetrix_warehouse_mangement_system
             us.VerticalAlignment = VerticalAlignment.Stretch;
             grid_main.Children.Add(us);
         }
+
+        private void item_update_machine_line_Click(object sender, RoutedEventArgs e)
+        {
+            grid_main.Children.Clear();
+            Asset_Tracking.Machine_Transfer.Update_machine_line us = new Asset_Tracking.Machine_Transfer.Update_machine_line();
+            us.HorizontalAlignment = HorizontalAlignment.Stretch;
+            us.VerticalAlignment = VerticalAlignment.Stretch;
+            grid_main.Children.Add(us);
+        }
     }
 
 

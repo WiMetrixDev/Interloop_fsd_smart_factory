@@ -6,7 +6,7 @@
                  xmlns:fa="http://schemas.fontawesome.io/icons/"
              xmlns:local="clr-namespace:Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts.Upload_parts"
                                   xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-                mc:Ignorable="d"  
+                mc:Ignorable="d" 
              >
     <Grid Margin="0,0,0,0" Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinHeight="375" MinWidth="580">
         <Grid Margin="20">
@@ -15,7 +15,18 @@
         <DockPanel VerticalAlignment="Stretch" Grid.ColumnSpan="3" Margin="20,120,20,20">
             <DataGrid Name="grid_packing_list" HorizontalScrollBarVisibility="Visible" ColumnWidth="*"  Grid.Column="3" Margin="0,-55,0,0" />
         </DockPanel>
-
+        <Grid HorizontalAlignment="Left" Margin="10,0,10,10" VerticalAlignment="Top">
+            <Border Background="#29506D" BorderThickness="0" CornerRadius="05,0,0,05" HorizontalAlignment="Left" Height="38" Margin="0,10,0,0" VerticalAlignment="Top" Width="110" MaxWidth="150" MaxHeight="50" >
+                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextElement.Foreground="White" Content="Location:" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="110" Height="38" />
+            </Border>
+            <Border Background="White" BorderBrush="#29506D" BorderThickness="5" CornerRadius="0,05,05,0" HorizontalAlignment="Left" Height="38" Margin="100,10,0,0" VerticalAlignment="Top" Width="170" MaxWidth="170" MaxHeight="50" >
+                <ComboBox BorderBrush="#29506D" Name="combo_location"  HorizontalAlignment="Center"  VerticalAlignment="Top" Width="145"      
+                            Typography.StylisticSet19="True"
+                            TextElement.FontFamily="Tahoma"
+                            IsHitTestVisible="True" Margin="10,0,0,0" 
+                        />
+            </Border>
+        </Grid>
         <Button Name="btn_excel_import"  BorderBrush="#29506D" Background="#29506D" Content="Import Parts List" HorizontalAlignment="Right" Margin="0,10,182,0" VerticalAlignment="Top" Width="167" Click="btn_excel_import_Click" />
         <Button x:Name="btn_excel_upload"  BorderBrush="#29506D" Background="#29506D" Content="Upload Parts List" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="167" Click="btn_excel_upload_Click"  />
         <TextBox Text="NOTE: Scan ano" Visibility="Hidden" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="notifier" FontSize="12" Background="Bisque" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,56" Height="40" Width="565"  />

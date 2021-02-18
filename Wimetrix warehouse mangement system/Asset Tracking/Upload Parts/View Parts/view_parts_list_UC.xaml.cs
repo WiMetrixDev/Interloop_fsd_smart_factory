@@ -77,7 +77,8 @@ namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts.View_P
                     String part_quantity = root.GetValue("part_quantity").ToString();
                     String UOM = root.GetValue("part_uom").ToString();
                     String Organization = root.GetValue("part_organization").ToString();
-                    parts_list.Add(new parts_model(part_id, item, part_code, Organization, UOM,part_quantity));
+                    String location_name = root.GetValue("location_name").ToString();
+                    parts_list.Add(new parts_model(part_id, item, part_code, Organization, UOM,part_quantity, location_name));
                 }
                 grid_parts_list.ItemsSource = parts_list;
             }

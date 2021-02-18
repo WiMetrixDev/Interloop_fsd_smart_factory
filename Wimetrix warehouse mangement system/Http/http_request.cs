@@ -168,7 +168,7 @@ namespace Wimetrix_warehouse_mangement_system.Http
             }
            
         }
-    }
+    } 
     public class HttpResult
     {
         bool resultFlag { get; set; }

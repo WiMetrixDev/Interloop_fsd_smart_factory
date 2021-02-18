@@ -207,6 +207,9 @@
       <DependentUpon>asset_tracking_UC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Asset Tracking\Asset Track\asset_track_model.cs" />
+    <Compile Include="Asset Tracking\Machine Transfer\Update_machine_line.xaml.cs">
+      <DependentUpon>Update_machine_line.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Asset Tracking\Upload Parts\machine_parts_UC.xaml.cs">
       <DependentUpon>machine_parts_UC.xaml</DependentUpon>
     </Compile>
@@ -382,6 +385,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Asset Tracking\Asset Track\asset_tracking_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset Tracking\Machine Transfer\Update_machine_line.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

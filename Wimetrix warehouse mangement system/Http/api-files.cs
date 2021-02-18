@@ -84,6 +84,7 @@ namespace Wimetrix_warehouse_mangement_system.Http
         public static String cutting_insert_activity = "Cutting/insertFinalActivityProgress.php";
         //Asset Tracking PHP API
         public static String Asset_get_goods_complete_data = "AssetsTracking/getAllGoodsData.php";
+        public static String Asset_parts_locations = "AssetsTracking/Machine_parts_consumption/getAllLocations.php";
         public static String Assets_get_locations = "AssetsTracking/getFloorsData.php";
         public static String Assets_update_locations = "AssetsTracking/insertRFIDTags.php";
         public static String upload_asset = "AssetsTracking/insertAssetsList.php";
@@ -91,6 +92,6 @@ namespace Wimetrix_warehouse_mangement_system.Http
         public static String auto_update_machine_locations = "AssetsTracking/autoUpdateMachineLocations.php";
         public static String insert_part_list = "AssetsTracking/Machine_parts_consumption/insertPartsList.php";
         public static String get_part_list = "AssetsTracking/Machine_parts_consumption/getAllParts.php";
-
+        public static String update_machine_line = "/AssetsTracking/UpdateMachineLine/UpdateMachineLine.php";
     }
 }

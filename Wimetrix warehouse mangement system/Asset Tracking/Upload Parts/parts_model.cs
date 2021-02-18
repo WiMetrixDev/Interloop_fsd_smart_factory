@@ -14,7 +14,8 @@ namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts
         public String Organization { get; set; }
         public String UOM { get; set; }
         public String Quantity { get; set; }
-        public parts_model(string part_id, string item, string part_name, string organization, string uOM, string part_quantity)
+        public String Location { get; set; }
+        public parts_model(string part_id, string item, string part_name, string organization, string uOM, string part_quantity, string Location)
         {
             this.ID = part_id;
             Item = item;
@@ -22,6 +23,7 @@ namespace Wimetrix_warehouse_mangement_system.Asset_Tracking.Upload_Parts
             Organization = organization;
             UOM = uOM;
             this.Quantity = part_quantity;
+            this.Location = Location;
         }
         public override string ToString()
         {
