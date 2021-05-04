@@ -56,6 +56,8 @@ namespace Wimetrix_warehouse_mangement_system.Http
         //SPTS Warehouse PHP API
         public static String upload_cutreport = "SPTS/insertCutReport.php";
         public static String upload_StyleBulletin = "SPTS/insertStyleBulletin.php";
+        public static String get_orders_list_for_transfer = "SPTS/orderTransfer/getAllOrdersListForTransfer.php";
+        public static String transfer_orders_for_order_style_article = "SPTS/orderTransfer/orderTransferForOrderStyleArticle.php";
         public static String get_orders_list = "SPTS/getAllOrdersList.php";
         public static String get_style_for_order = "SPTS/getStyleCodesList.php";
         public static String get_article_for_order = "SPTS/getArticlesList.php";

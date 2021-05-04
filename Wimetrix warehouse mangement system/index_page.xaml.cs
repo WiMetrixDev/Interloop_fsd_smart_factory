@@ -151,6 +151,14 @@ namespace Wimetrix_warehouse_mangement_system
             us.VerticalAlignment = VerticalAlignment.Stretch;
             grid_main.Children.Add(us);
         }
+        private void item_completed_orders_Click(object sender, RoutedEventArgs e)
+        {
+            grid_main.Children.Clear();
+            SPTS.CompletedOrders.completed_orders us = new SPTS.CompletedOrders.completed_orders();
+            us.HorizontalAlignment = HorizontalAlignment.Stretch;
+            us.VerticalAlignment = VerticalAlignment.Stretch;
+            grid_main.Children.Add(us);
+        }
         private void item_stocking_Click(object sender, RoutedEventArgs e)
         {
             grid_main.Children.Clear();
@@ -264,6 +272,7 @@ namespace Wimetrix_warehouse_mangement_system
             us.VerticalAlignment = VerticalAlignment.Stretch;
             grid_main.Children.Add(us);
         }
+
     }
 
 

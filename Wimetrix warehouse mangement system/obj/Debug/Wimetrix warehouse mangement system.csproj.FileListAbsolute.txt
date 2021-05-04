@@ -937,3 +937,487 @@ D:\Github\Github Desktop\Interloop FSD\Interloop_fsd_smart_factory\Wimetrix ware
 D:\Github\Github Desktop\Interloop FSD\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe
 D:\Github\Github Desktop\Interloop FSD\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.pdb
 D:\Github\Github Desktop\Interloop FSD\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csprojAssemblyReference.cache
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.exe.config
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.exe.manifest
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.application
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.exe
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.pdb
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\netstandard.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.AppContext.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.Specialized.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Console.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.Common.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Globalization.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.Compression.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.Pipes.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.Expressions.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.Parallel.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.Queryable.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Http.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.NameResolution.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Ping.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Requests.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Security.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Sockets.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.WebSockets.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ObjectModel.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Reflection.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Resources.Reader.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Resources.Writer.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Handles.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Claims.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Principal.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.SecureString.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Text.Encoding.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Tasks.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Thread.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Timer.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ValueTuple.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XDocument.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XPath.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.Core.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\FontAwesome.WPF.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignColors.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Newtonsoft.Json.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\SRP.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\XBeeLibrary.Core.dll
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.pdb
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.Core.pdb
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.Core.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\FontAwesome.WPF.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Newtonsoft.Json.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csprojAssemblyReference.cache
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe.config
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\asset_uc.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\Add new Assets\add_new_asset.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\administrative_portal.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\View Assets\view_assets_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Allocation\asset_allocation.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Summary\asset_summary.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Track\asset_tracking_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Machine Transfer\Update_machine_line.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\machine_parts_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Cutting Management\Cutting dept\cutting_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\index_page.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login_view.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\cutreport_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\upload_cutreport.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\view cutreport\view_cutreport.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\Add operation\add_operation.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\operations_UC\operations_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\View operations\view_operations.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\Add Order\add_order.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\order_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\style_bulletin_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\upload_style_bulletin.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\Add Worker\add_worker.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\View Worker\view_worker.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\worker_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Assign Rfid\assign_rfid.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Card Assign\assign_rfid_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Dashboard\stockReport.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Allocation\departmental_allocation_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Consumption\deparmental_consumption.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\packing_list_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\manual_stocking_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Roll Return\roll_return_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Transfer Rolls\transfer_rolls_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Update location\update_location_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Upload Excel\import_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\view Packing List\view_packinglist_UC.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\wlecome_window.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\App.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System_MarkupCompile.cache
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System_MarkupCompile.lref
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\App.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\asset_uc.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\Add new Assets\add_new_asset.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\administrative_portal.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\View Assets\view_assets_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Allocation\asset_allocation.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Summary\asset_summary.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Track\asset_tracking_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Machine Transfer\Update_machine_line.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\machine_parts_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Cutting Management\Cutting dept\cutting_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\index_page.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login_view.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\cutreport_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\upload_cutreport.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\view cutreport\view_cutreport.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\Add operation\add_operation.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\operations_UC\operations_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\View operations\view_operations.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\Add Order\add_order.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\order_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\style_bulletin_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\upload_style_bulletin.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\Add Worker\add_worker.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\View Worker\view_worker.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\worker_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Assign Rfid\assign_rfid.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Card Assign\assign_rfid_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Dashboard\stockReport.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Allocation\departmental_allocation_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Consumption\deparmental_consumption.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\packing_list_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\manual_stocking_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Roll Return\roll_return_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Transfer Rolls\transfer_rolls_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Update location\update_location_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Upload Excel\import_packing_list_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\view Packing List\view_packinglist_UC.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\wlecome_window.baml
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.g.resources
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix_warehouse_mangement_system.Properties.Resources.resources
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.GenerateResource.cache
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.CoreCompileInputs.cache
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe.manifest
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.application
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.CopyComplete
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.pdb
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CompletedOrders\completed_orders.g.cs
+C:\Users\saadk\Desktop\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CompletedOrders\completed_orders.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.exe.config
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.exe.manifest
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.application
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.exe
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Wimetrix Management System.pdb
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\netstandard.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.AppContext.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Collections.Specialized.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Console.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.Common.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Globalization.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.Compression.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.Pipes.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.Expressions.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.Parallel.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Linq.Queryable.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Http.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.NameResolution.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Ping.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Requests.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Security.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Sockets.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.WebSockets.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ObjectModel.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Reflection.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Resources.Reader.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Resources.Writer.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Handles.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Claims.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.Principal.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Security.SecureString.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Text.Encoding.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Tasks.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Thread.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Threading.Timer.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.ValueTuple.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XDocument.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XPath.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.Core.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\FontAwesome.WPF.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignColors.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Newtonsoft.Json.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\SRP.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\XBeeLibrary.Core.dll
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.pdb
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.Core.pdb
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Common.Logging.Core.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\FontAwesome.WPF.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\Newtonsoft.Json.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csprojAssemblyReference.cache
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe.config
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\asset_uc.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\Add new Assets\add_new_asset.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\administrative_portal.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\View Assets\view_assets_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Allocation\asset_allocation.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Summary\asset_summary.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Track\asset_tracking_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Machine Transfer\Update_machine_line.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\machine_parts_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Cutting Management\Cutting dept\cutting_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\index_page.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login_view.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\cutreport_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\upload_cutreport.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\view cutreport\view_cutreport.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\Add operation\add_operation.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\operations_UC\operations_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\View operations\view_operations.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\Add Order\add_order.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\order_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\style_bulletin_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\upload_style_bulletin.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CompletedOrders\completed_orders.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\Add Worker\add_worker.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\View Worker\view_worker.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\worker_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Assign Rfid\assign_rfid.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Card Assign\assign_rfid_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Dashboard\stockReport.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Allocation\departmental_allocation_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Consumption\deparmental_consumption.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\manual_stocking_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Roll Return\roll_return_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Transfer Rolls\transfer_rolls_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Update location\update_location_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Upload Excel\import_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\view Packing List\view_packinglist_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\wlecome_window.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\App.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System_MarkupCompile.cache
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System_MarkupCompile.lref
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\App.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\asset_uc.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\Add new Assets\add_new_asset.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\administrative_portal.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\administrative_portal\View Assets\view_assets_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Allocation\asset_allocation.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Summary\asset_summary.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Asset Track\asset_tracking_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Machine Transfer\Update_machine_line.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\machine_parts_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Cutting Management\Cutting dept\cutting_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\index_page.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Login\login_view.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\cutreport_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\upload_cutreport.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CutReport\view cutreport\view_cutreport.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\Add operation\add_operation.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\operations_UC\operations_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Operations\View operations\view_operations.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\Add Order\add_order.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Orders\order_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\style_bulletin_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\upload_style_bulletin.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\CompletedOrders\completed_orders.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\Add Worker\add_worker.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\View Worker\view_worker.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\SPTS\Workers\worker_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Assign Rfid\assign_rfid.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Card Assign\assign_rfid_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Dashboard\stockReport.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Allocation\departmental_allocation_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Departmental Consumption\deparmental_consumption.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\packing_list_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\manual_stocking_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Roll Return\roll_return_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Transfer Rolls\transfer_rolls_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Update location\update_location_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\Upload Excel\import_packing_list_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Warehouse Management\view Packing List\view_packinglist_UC.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\wlecome_window.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.g.resources
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix_warehouse_mangement_system.Properties.Resources.resources
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.GenerateResource.cache
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.CoreCompileInputs.cache
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe.manifest
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.application
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.CopyComplete
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.pdb

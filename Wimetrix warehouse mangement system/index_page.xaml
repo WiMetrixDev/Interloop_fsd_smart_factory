@@ -120,8 +120,9 @@
                             <Separator  />
                             <MenuItem Name="item_orders_add"  Header="Add/View Orders" Click="Item_orders_add_Click" />
                             <Separator  />
-
                             <MenuItem  Name="item_style_bulletin" Header="Add/View Style Bulletin" Click="item_style_bulletin_Click" />
+                            <Separator  />
+                            <MenuItem  Name="item_completed_orders" Header="Completed Orders Form" Click="item_completed_orders_Click" />
                         </MenuItem>
                     </Menu>
                 </StackPanel>

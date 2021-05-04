@@ -280,6 +280,10 @@
     <Compile Include="SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.xaml.cs">
       <DependentUpon>view_style_bulletin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SPTS\CompletedOrders\completed_orders.xaml.cs">
+      <DependentUpon>completed_orders.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SPTS\CompletedOrders\completed_orders_model.cs" />
     <Compile Include="SPTS\Workers\Add Worker\add_worker.xaml.cs">
       <DependentUpon>add_worker.xaml</DependentUpon>
     </Compile>
@@ -478,6 +482,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SPTS\CompletedOrders\completed_orders.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
