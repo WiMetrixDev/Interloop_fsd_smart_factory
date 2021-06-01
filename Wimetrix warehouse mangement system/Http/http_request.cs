@@ -145,7 +145,7 @@ namespace Wimetrix_warehouse_mangement_system.Http
         public HttpResult send_node_request(String requestBody, String api_name, String method)
         {
             System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
-            String ip = "192.168.88.172:8805/api/v1/";
+            string ip = Http.api_files.nodeIP;
             if (pingServer(ip))
             {
                 using (WebClient client = new WebClient())
@@ -228,7 +228,9 @@ namespace Wimetrix_warehouse_mangement_system.Http
             {
                 using (WebClient client = new WebClient())
                 {
-                    
+
+                    string ip = Http.api_files.nodeIP;
+
                     try
                     {
                         //Console.WriteLine("http://" + ip + api_name);

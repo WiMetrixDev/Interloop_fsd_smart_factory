@@ -8,6 +8,8 @@ namespace Wimetrix_warehouse_mangement_system.Http
 {
     class api_files
     {
+        public static String nodeIP = "192.168.88.172:8805/api/v1/";
+
         // Software login
         public static String login = "includes/userLogin.php";
         //Warehouse PHP API
