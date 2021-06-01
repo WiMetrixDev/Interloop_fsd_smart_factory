@@ -1308,7 +1308,6 @@ C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse m
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.xml
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csprojAssemblyReference.cache
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe.config
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.g.cs
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Asset Tracking\Add Assets\asset_uc.g.cs
@@ -1421,3 +1420,4 @@ C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse m
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.CopyComplete
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.exe
 C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix Management System.pdb
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Debug\Wimetrix warehouse mangement system.csproj.AssemblyReference.cache

@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Wimetrix warehouse mangement system",
+    "\\Wimetrix warehouse mangement system\\Cutting Management",
+    "\\Wimetrix warehouse mangement system\\Cutting Management\\Cutting dept",
     "\\Wimetrix warehouse mangement system\\SPTS",
     "\\Wimetrix warehouse mangement system\\SPTS\\CompletedOrders"
   ],
-  "SelectedNode": "\\Wimetrix warehouse mangement system\\SPTS\\CompletedOrders\\completed_orders_model.cs",
+  "SelectedNode": "\\Wimetrix warehouse mangement system\\Cutting Management\\Cutting dept\\cutting_model.cs",
   "PreviewInSolutionExplorer": false
 }

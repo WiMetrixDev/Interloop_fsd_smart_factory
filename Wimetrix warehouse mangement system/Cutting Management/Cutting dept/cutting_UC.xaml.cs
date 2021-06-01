@@ -279,24 +279,34 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
         public void fetch_card_details(String card_number)
         {         
             this.Dispatcher.Invoke(() =>
-            {             
+            {
                 if (reader_flag)
                 {
-                    var reqarm = new System.Collections.Specialized.NameValueCollection();
-                    reqarm.Add("rfid_tag", card_number);
+
                     Http.http_request request = new Http.http_request();
-                    Http.HttpResult result = request.send_request(reqarm, Http.api_files.cutting_get_RFID_detail);
+                    string reqParams = $"limit=1&page=1&searchOn=RollId&searchBy={card_number}";
+
+                    Http.HttpResult result = request.get_node_request(Http.api_files.cutting_node_get_RFID_detail, reqParams);
+ 
                     if (result.getresultFlag())
                     {
                         JObject json = result.getjsonResult();
-                        roll = json.GetValue("Roll Code").ToString();
-                        Order = json.GetValue("Order Code").ToString();
-                        available_weight = json.GetValue("Weight").ToString();
-                        fabric_color_code = json.GetValue("fabric_color_code").ToString();
-                        fabric_lot_code = json.GetValue("fabric_lot_code").ToString();
-                        supplier_code = json.GetValue("supplier_code").ToString();
-                        fabric_type_code = json.GetValue("fabric_type_code").ToString();
-                        supplier_lot = json.GetValue("supplier_lot").ToString();
+                        JArray items = JArray.Parse(json.GetValue("items").ToString());
+                        if (items.Count == 0)
+                        {
+                            ShowError("Roll Not Found!");
+                            return;
+                        }
+                        JObject current = JObject.Parse(items[0].ToString());
+
+                        roll = current.GetValue("RollId").ToString();
+                        Order = current.GetValue("Order").ToString();
+                        available_weight = current.GetValue("NetWeight").ToString();
+                        fabric_color_code = current.GetValue("FabricColor").ToString();
+                        fabric_lot_code = current.GetValue("FabricLot").ToString();
+                        supplier_code = current.GetValue("Supplier").ToString();
+                        fabric_type_code = current.GetValue("FabricType").ToString();
+                        supplier_lot = current.GetValue("SupplierLot").ToString();
 
                         bool rollAlreadyExists = false; 
                         foreach (cutting_model cutting_roll in cutting_list)
@@ -467,14 +477,19 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
         }
         public bool generate_activity_code()
         {
-            var reqarm = new System.Collections.Specialized.NameValueCollection();
+            // TODO Change API
             Http.http_request request = new Http.http_request();
-            Http.HttpResult result = request.send_request(reqarm, Http.api_files.cutting_generate_activity_code);
+            Http.HttpResult result = request.send_node_request("", Http.api_files.cutting_node_generate_activity_code, "POST");
             if (result.getresultFlag())
             {
+
+                fetch_card_details("144");
+
                 JObject json = result.getjsonResult();
-                 activity_code = json.GetValue("Activity_Code").ToString();
-                Console.WriteLine("Activity"+activity_code);
+                JObject data = JObject.Parse(json.GetValue("Data").ToString());
+                JArray identifiers = JArray.Parse(data.GetValue("identifiers").ToString());
+                 activity_code = JObject.Parse(identifiers[0].ToString()).GetValue("ActivityId").ToString();
+                Console.WriteLine("Activity "+activity_code);
                // populate_combo_ports();
                 return true;
             }
@@ -560,9 +575,8 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
 
                 if (cutting_list.Count > 0)
                 {
-                    var json = JsonConvert.SerializeObject(cutting_list);
                    
-                    if (submit_individual(json))
+                    if (submit_individual())
                     {
                         if (submit_activity())
                         {
@@ -735,19 +749,25 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
 
             }
         }
-        public bool submit_individual(String Roll_info)
+        public bool submit_individual()
         
         {
-            var reqarm = new System.Collections.Specialized.NameValueCollection();
-            reqarm.Add("roll_info", Roll_info);
-            Console.WriteLine(Roll_info);
-            reqarm.Add("activity_code", activity_code);
+            
+            JArray reqBody = new JArray();
 
+            foreach (cutting_model cutting_roll in cutting_list)
+            {
+                JObject currentObject = new JObject();
+                currentObject.Add("RollId", Int16.Parse(cutting_roll.Roll));
+                currentObject.Add("ActivityId", Int16.Parse(activity_code));
+                reqBody.Add(currentObject);
+            }
+
+            // TODO Change API
             Http.http_request request = new Http.http_request();
-            Http.HttpResult result = request.send_request(reqarm, Http.api_files.cutting_get_insert_individual_roll);
+            Http.HttpResult result = request.send_node_request(reqBody.ToString(), Http.api_files.cutting_node_get_insert_individual_roll, "PUT");
             if (result.getresultFlag())
             {
-
                 return true;
             }
             else
@@ -767,23 +787,25 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
         }
         public bool submit_activity()
         {
-            var reqarm = new System.Collections.Specialized.NameValueCollection();
 
             activity_end_time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff", System.Globalization.DateTimeFormatInfo.InvariantInfo);
-            reqarm.Add("activity_code", activity_code);
-            reqarm.Add("large_waste", final_large_waste);
-            reqarm.Add("large_waste_percentage", final_large_waste_percentage);
-            reqarm.Add("small_waste", final_small_waste);
-            reqarm.Add("small_waste_percentage", final_small_waste_percentage);
-            reqarm.Add("start_time", activity_start_time);
-            reqarm.Add("end_time", activity_end_time);
+            TimeSpan first_shift_start = new TimeSpan(6, 0, 0);
+            TimeSpan first_shift_end = new TimeSpan(14, 0, 0);
+            TimeSpan time_now = DateTime.Now.TimeOfDay;
+            string shift = (time_now >= first_shift_start) && (time_now <= first_shift_end) ? "FIRST" : "SECOND";
 
+            JObject reqBody = new JObject();
+            reqBody.Add("ActivityId", Int16.Parse(activity_code));
+            reqBody.Add("LargeWaste", Int16.Parse(final_large_waste));
+            reqBody.Add("SmallWaste", Int16.Parse(final_small_waste));
+            reqBody.Add("StartTime", activity_start_time);
+            reqBody.Add("EndTime", activity_end_time);
+            reqBody.Add("Shift", shift);
 
             Http.http_request request = new Http.http_request();
-            Http.HttpResult result = request.send_request(reqarm, Http.api_files.cutting_insert_activity);
+            Http.HttpResult result = request.send_node_request(reqBody.ToString(), Http.api_files.cutting_node_insert_activity, "POST");
             if (result.getresultFlag())
             {
-
                 return true;
             }
             else
@@ -795,12 +817,12 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
                 }
                 else
                 {
-
+                    ShowError("Something Went Wrong");
+                    return false;
                 }
             }
-
-            return false;
         }
+        // NOT BEING USED
         public bool set_intention_flag(String rfid)
         {
             var reqarm = new System.Collections.Specialized.NameValueCollection();

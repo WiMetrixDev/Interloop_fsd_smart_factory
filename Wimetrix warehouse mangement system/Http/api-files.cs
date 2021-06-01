@@ -84,6 +84,11 @@ namespace Wimetrix_warehouse_mangement_system.Http
         public static String cutting_get_RFID_detail = "Cutting/getRFIDRollInfo.php";
         public static String cutting_get_insert_individual_roll = "Cutting/insertRollsForCutting.php";
         public static String cutting_insert_activity = "Cutting/insertFinalActivityProgress.php";
+        // Cutting Node API
+        public static String cutting_node_get_RFID_detail = "Reports/StockedOut_Rolls";
+        public static String cutting_node_generate_activity_code = "Cutting/Generate_Activity";
+        public static String cutting_node_get_insert_individual_roll = "Cutting/Activity_Roll_Mapping";
+        public static String cutting_node_insert_activity = "Cutting/Submit_Wastage";
         //Asset Tracking PHP API
         public static String Asset_get_goods_complete_data = "AssetsTracking/getAllGoodsData.php";
         public static String Asset_parts_locations = "AssetsTracking/Machine_parts_consumption/getAllLocations.php";

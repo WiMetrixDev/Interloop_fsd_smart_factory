@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
@@ -141,10 +142,138 @@ namespace Wimetrix_warehouse_mangement_system.Http
 
 
         }
+        public HttpResult send_node_request(String requestBody, String api_name, String method)
+        {
+            System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
+            String ip = "192.168.88.172:8805/api/v1/";
+            if (pingServer(ip))
+            {
+                using (WebClient client = new WebClient())
+                {
+                    try
+                    {
+                        //Console.WriteLine("http://" + ip + api_name);
+                        //Console.WriteLine(method);
+                        //Console.WriteLine(requestBody);
+                        client.Headers[HttpRequestHeader.ContentType] = "application/json";
+                        string responsebody = client.UploadString($"http://{ip}{api_name}", method, requestBody);
+
+                        JObject json = JObject.Parse(responsebody);
+                        //Checking the erro Flag sent from PHP
+                        String errorCode = json.GetValue("ErrorNumber").ToString();
+                        String ErrorDescription = json.GetValue("ErrorMessage").ToString();
+                        if (errorCode == "0")
+                        {
+                            System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                            return (new HttpResult(true, errorCode, ErrorDescription, json));
+                        }
+                        else
+                        {
+                            if (errorCode == "API-Duplicate")
+                            {
+                                System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                                return (new HttpResult(false, "API-Duplicate", ErrorDescription, json));
+                            }
+                            System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                            return (new HttpResult(false, "API-001", ErrorDescription, json));
+                        }
+                    }
+                    catch (WebException ex)
+                    {
+                        System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                        using (WebResponse response = ex.Response)
+                        {
+                            HttpWebResponse httpResponse = (HttpWebResponse)response;
+                            Console.WriteLine("Error code: {0}", httpResponse.StatusCode);
+                            using (Stream data = response.GetResponseStream())
+                            using (var reader = new StreamReader(data))
+                            {
+                                string responseText = reader.ReadToEnd();
+                                JObject responseJson = JObject.Parse(responseText);
+                                if (responseJson.GetValue("message") != null)
+                                {
+                                    Console.WriteLine(responseJson.GetValue("message").ToString());
+                                    return (new HttpResult(false, "API-001", responseJson.GetValue("message").ToString(), null));
+                                }
+                                else if (responseJson.GetValue("ErrorMessage") != null)
+                                {
+                                    Console.WriteLine(responseJson.GetValue("ErrorMessage").ToString());
+                                    return (new HttpResult(false, "API-001", responseJson.GetValue("ErrorMessage").ToString(), null));
+                                }
+                                else
+                                {
+                                    return (new HttpResult(false, "HTTP", "HTTP ERROR", null));
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+                // return (new HttpResult(false, "", null));
+            }
+            else
+            {
+                System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                return (new HttpResult(false, "server001", "IP address Unreachable", null));
+            }
+
+
+        }
+        public HttpResult get_node_request(String api_name, String reqParams)
+        {
+            System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
+            String ip = "192.168.88.172:8805/api/v1/";
+            if (pingServer(ip))
+            {
+                using (WebClient client = new WebClient())
+                {
+                    
+                    try
+                    {
+                        //Console.WriteLine("http://" + ip + api_name);
+                        string request_address = $"http://{ip}{api_name}?{reqParams}";
+                        byte[] responsebytes = client.DownloadData(request_address);
+                        string responsebody = Encoding.UTF8.GetString(responsebytes);
+
+                        JObject json = JObject.Parse(responsebody);
+                        //Checking the erro Flag sent from PHP
+                        JToken items = json.GetValue("items");
+
+                        if (items != null && items.Type == JTokenType.Array)
+                        {
+                            System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                            return (new HttpResult(true, "0", "", json));
+                        }
+                        else
+                        {
+                            System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                            String ErrorMessage = json.GetValue("ErrorMessage").ToString();
+                            return (new HttpResult(false, "API-001", ErrorMessage, json));
+                        }
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.ToString());
+                        System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                        return (new HttpResult(false, "HTTP", "HTTP ERROR", null));
+                    }
+                }
+                // return (new HttpResult(false, "", null));
+            }
+            else
+            {
+                System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Arrow;
+                return (new HttpResult(false, "server001", "IP address Unreachable", null));
+            }
+
+
+        }
         public bool pingServer(String IP)
         {
-                Ping ping = new Ping();
-                String[] ip_address = IP.Split('/');
+            Ping ping = new Ping();
+            String[] ip_address = IP.Split('/');
             try
             {
                 String ip = ip_address[0];
@@ -162,11 +291,12 @@ namespace Wimetrix_warehouse_mangement_system.Http
                 {
                     return false;
                 }
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
                 return false;
             }
-           
+
         }
     } 
     public class HttpResult

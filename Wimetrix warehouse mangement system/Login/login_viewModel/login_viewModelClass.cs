@@ -15,12 +15,13 @@ namespace Wimetrix_warehouse_mangement_system.Login.login_viewModel
         errorCode errorCod = new errorCode();
         public Boolean http_loginRequest(System.Collections.Specialized.NameValueCollection reqparm)
         {
-            Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
+            //Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
             using (WebClient client = new WebClient())
             {
                 byte[] responsebytes = client.UploadValues("http://localhost/traffic_lights_round/login.php", "POST", reqparm);
                 string responsebody = Encoding.UTF8.GetString(responsebytes);
                 JObject json = JObject.Parse(responsebody);
+                Console.WriteLine(responsebody);
                 //Checking the erro Flag sent from PHP
                 //String errorCode = 
                 
