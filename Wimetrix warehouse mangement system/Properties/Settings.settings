@@ -29,5 +29,8 @@
     <Setting Name="serverIP" Type="System.String" Scope="User">
       <Value Profile="(Default)">10.11.0.21/interloop/</Value>
     </Setting>
+    <Setting Name="nodeServerIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.11.0.22:8800/api/v1/</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

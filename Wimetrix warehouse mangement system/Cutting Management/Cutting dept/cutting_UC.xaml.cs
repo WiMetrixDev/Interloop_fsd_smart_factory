@@ -280,6 +280,7 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
         {         
             this.Dispatcher.Invoke(() =>
             {
+                //if (true)
                 if (reader_flag)
                 {
 
@@ -483,7 +484,7 @@ namespace Wimetrix_warehouse_mangement_system.Cutting_Management.Cutting_dept
             if (result.getresultFlag())
             {
 
-                fetch_card_details("144");
+                //fetch_card_details("1");
 
                 JObject json = result.getjsonResult();
                 JObject data = JObject.Parse(json.GetValue("Data").ToString());

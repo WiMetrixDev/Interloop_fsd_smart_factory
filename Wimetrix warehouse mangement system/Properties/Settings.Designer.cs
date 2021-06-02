@@ -12,7 +12,7 @@ namespace Wimetrix_warehouse_mangement_system.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.3.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -128,6 +128,18 @@ namespace Wimetrix_warehouse_mangement_system.Properties {
             }
             set {
                 this["serverIP"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10.11.0.22:8800/api/v1/")]
+        public string nodeServerIP {
+            get {
+                return ((string)(this["nodeServerIP"]));
+            }
+            set {
+                this["nodeServerIP"] = value;
             }
         }
     }

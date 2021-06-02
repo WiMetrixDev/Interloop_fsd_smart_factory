@@ -145,16 +145,17 @@ namespace Wimetrix_warehouse_mangement_system.Http
         public HttpResult send_node_request(String requestBody, String api_name, String method)
         {
             System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
-            string ip = Http.api_files.nodeIP;
+            string ip = Settings.Default.nodeServerIP.ToString();
+            Console.WriteLine(ip);
             if (pingServer(ip))
             {
                 using (WebClient client = new WebClient())
                 {
                     try
                     {
-                        //Console.WriteLine("http://" + ip + api_name);
-                        //Console.WriteLine(method);
-                        //Console.WriteLine(requestBody);
+                        Console.WriteLine("http://" + ip + api_name);
+                        Console.WriteLine(method);
+                        Console.WriteLine(requestBody);
                         client.Headers[HttpRequestHeader.ContentType] = "application/json";
                         string responsebody = client.UploadString($"http://{ip}{api_name}", method, requestBody);
 
@@ -223,13 +224,11 @@ namespace Wimetrix_warehouse_mangement_system.Http
         public HttpResult get_node_request(String api_name, String reqParams)
         {
             System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
-            String ip = "192.168.88.172:8805/api/v1/";
+            string ip = Settings.Default.nodeServerIP.ToString();
             if (pingServer(ip))
             {
                 using (WebClient client = new WebClient())
                 {
-
-                    string ip = Http.api_files.nodeIP;
 
                     try
                     {

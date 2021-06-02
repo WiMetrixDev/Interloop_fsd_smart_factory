@@ -79,3 +79,59 @@ D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\W
 D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.baml
 D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.baml
 D:\Wimetrix-desktop Applications\Interloop\Wimetrix warehouse mangement system\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.baml
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Wimetrix warehouse mangement system.csproj.AssemblyReference.cache
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System.exe.config
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Add Assets\add_new_asset\new_asset_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Add Assets\asset_uc.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\administrative_portal\Add new Assets\add_new_asset.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\administrative_portal\administrative_portal.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\administrative_portal\View Assets\view_assets_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Asset Allocation\asset_allocation.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Asset Summary\asset_summary.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Asset Track\asset_tracking_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Machine Transfer\Update_machine_line.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Upload Parts\machine_parts_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Upload Parts\Upload parts\upload_parts_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Asset Tracking\Upload Parts\View Parts\view_parts_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Cutting Management\Cutting dept\cutting_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\index_page.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Login\login.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Login\login_view.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\cutreport_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\upload_cutreport.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\CutReport\view cutreport\view_cutreport.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Operations\Add operation\add_operation.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Operations\operations_UC\operations_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Operations\View operations\view_operations.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Orders\Add Order\add_order.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Orders\order_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\Manual Style Bulletin\add_manual_style_bulletin.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\style_bulletin_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\upload_style_bulletin.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Style Bulletin\View Style Bulletin\view_style_bulletin.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\CompletedOrders\completed_orders.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Workers\Add Worker\add_worker.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Workers\View Worker\view_worker.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\SPTS\Workers\worker_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Assign Rfid\assign_rfid.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Card Assign\assign_rfid_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Dashboard\stockReport.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Departmental Allocation\departmental_allocation_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Departmental Consumption\deparmental_consumption.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Generate Packing List\Add Packing List\add_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Generate Packing List\packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Generate Packing List\View Packing List\view_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\manual_stocking_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock IN\stock_in_uc.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Manual Stocking\Stock Out\stock_out_uc.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Roll Return\roll_return_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Transfer Rolls\transfer_rolls_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Update location\update_location_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\Upload Excel\import_packing_list_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Warehouse Management\view Packing List\view_packinglist_UC.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\wlecome_window.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\App.g.cs
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System_MarkupCompile.cache
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System_MarkupCompile.lref
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System.exe
+C:\Users\saadk\Desktop\WiMetrix\Interloop_fsd_smart_factory\Wimetrix warehouse mangement system\obj\Release\Wimetrix Management System.pdb

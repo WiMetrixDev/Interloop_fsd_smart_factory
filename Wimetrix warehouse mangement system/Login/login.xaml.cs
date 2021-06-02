@@ -167,6 +167,45 @@ namespace Wimetrix_warehouse_mangement_system.Login
 
 
         }
+        private void btn_setNodeIP_Click(object sender, RoutedEventArgs e)
+        {
+            if (node_ip_popup.IsOpen != true)
+            {
+                text_node_ip.Text = Settings.Default["nodeServerIP"].ToString();
+                showNodeIpPopup();
+            }
+
+        }
+        private void btn_set_node_Click(object sender, RoutedEventArgs e)
+        {
+            if (node_ip_popup.IsOpen)
+            {
+                Settings.Default["nodeServerIP"] = text_node_ip.Text;
+                Settings.Default.Save();
+                hideNodeIpPopup();
+            }
+        }
+        public void showNodeIpPopup()
+        {
+            var blur = new BlurEffect();
+            var current = this.Background;
+            blur.Radius = 6;
+
+            this.Background = new SolidColorBrush(Colors.DarkGray);
+            this.Effect = blur;
+            node_ip_popup.IsOpen = true;
+            ////this.Effect = null;
+            ////this.Background = current;
+            //
+        }
+        public void hideNodeIpPopup()
+        {
+            node_ip_popup.IsOpen = false;
+            this.Effect = null;
+            this.Background = new SolidColorBrush(Colors.White);
+
+
+        }
         private void btn_windowMinimize_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
